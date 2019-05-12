@@ -1,0 +1,35 @@
+PODS:
+  - Adyen (2.5.0):
+    - Adyen/Card (= 2.5.0)
+    - Adyen/Core (= 2.5.0)
+    - Adyen/SEPA (= 2.5.0)
+  - Adyen/Card (2.5.0):
+    - Adyen/Core
+  - Adyen/Core (2.5.0):
+    - AdyenInternal (= 2.5.0)
+  - Adyen/SEPA (2.5.0):
+    - Adyen/Core
+  - AdyenInternal (2.5.0)
+  - AdyenReactNative (1.0.2):
+    - Adyen
+
+DEPENDENCIES:
+  - AdyenReactNative (from `../node_modules/adyen-react-native`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Adyen
+    - AdyenInternal
+
+EXTERNAL SOURCES:
+  AdyenReactNative:
+    :path: "../node_modules/adyen-react-native"
+
+SPEC CHECKSUMS:
+  Adyen: 39006598ca0cb4daf3a00ac196de84ce61da846f
+  AdyenInternal: 503d83c9f2ccc5403b960877a1dade881415c5a3
+  AdyenReactNative: 9aaa55a41b7a90167b09913037eb64f42e5cb949
+
+PODFILE CHECKSUM: e0c68a3630da0e4cddf96d8f73c9e4630d33c2e9
+
+COCOAPODS: 1.6.0.beta.2

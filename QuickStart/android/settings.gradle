@@ -1,0 +1,5 @@
+rootProject.name = 'QuickStart'
+include ':adyen-react-native'
+project(':adyen-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/adyen-react-native/android')
+
+include ':app'

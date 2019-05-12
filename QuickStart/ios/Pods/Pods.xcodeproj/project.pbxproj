@@ -1,0 +1,1735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A2C7A64371354943524BC30E86C545F7 /* AdyenReactNative */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0B50C8672900D62FBCEF1F358FEA721 /* Build configuration list for PBXAggregateTarget "AdyenReactNative" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6FFFA5C9F5E8C48CCE38CFF7953825DA /* PBXTargetDependency */,
+			);
+			name = AdyenReactNative;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00D506F08F5FC4749EFC0B3AC43568B1 /* KeyedDecodingContainerHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10CB6D2D58008143F0FDB877FA48E9C /* KeyedDecodingContainerHelpers.swift */; };
+		01CB8C9DBF724558581778E1EBBC5CA1 /* CheckoutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E96789748264BE6FDE0F29A2CF8039 /* CheckoutPresenter.swift */; };
+		03490D5DE3758185D1449ED03F0672CB /* CardEncryptorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8B66EBA6641A99BD47A17B1D7995C /* CardEncryptorExtensions.swift */; };
+		055A961E1B517BC54BE5BF3456CB6368 /* DynamicTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62BC471C5B4E1A2893FB2FBE903D397 /* DynamicTypeController.swift */; };
+		05A8A446EB5C532E0DBF3FE07BB12442 /* ADYAESCCMCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9141E92EE9DE51C5D0709857946B27BE /* ADYAESCCMCryptor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		05EE3E1655217C1175379A10E06719B2 /* DynamicHeightNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99ED737D8C87578B47666C483471D2C /* DynamicHeightNavigationController.swift */; };
+		05FF11CDC1A80D821DD47DA0DD8D041A /* SectionedPaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7C74D4E6830622E25DDB90CC0364E /* SectionedPaymentMethods.swift */; };
+		07ECFC9055F42D93B42A4E6E27B510B3 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C10DB9567688F05557D23F5FC4195 /* UIImageViewExtensions.swift */; };
+		08CE1BE6F4C5C03C6858214D3B5187A3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362C1223B175BCCAC68D8473BF92C88 /* ListViewController.swift */; };
+		093176FF93713B4ABC260284A6303720 /* PaymentSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFDB58094FD96456266119856A8F0 /* PaymentSession.swift */; };
+		09FCC7E0FFEE8BDF52E97AC5B240AF24 /* URLSessionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29923C45952F57D670B62218FD5DEA5 /* URLSessionExtensions.swift */; };
+		0A7EA47CF743FCF5BE4F0C7E7058926A /* CheckoutNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78E862094C956D607C91687881E92F /* CheckoutNavigationController.swift */; };
+		0A8B910C3891BA19BD42A86C289DE030 /* ADYRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093438447F38E0671C4EA105B72840F /* ADYRSACryptor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0B07874C4B111CDFF3A6E6E0CB1281AE /* GiroPaySearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60E2D8EA00773FBEB855BE478ED9464 /* GiroPaySearchController.swift */; };
+		0B37BC8A52D8C53BD9BFDCF0F5C854E6 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AA4254B1310265E5C905511198597 /* LoadingViewController.swift */; };
+		0B5D00C338722D1D325800024C042BC3 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CD9740BF925D91E362B103BA878795 /* Localization.swift */; };
+		0E7A068C134285ECE2E3B8511AF43F15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219FE9312EC89E08363E1E79887EE8CB /* Foundation.framework */; };
+		13635A648FD1FF77262C7360A6EFCA2F /* GiroPayIssuersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B52789CB46B8BDDF17D68F6C261D9 /* GiroPayIssuersResponse.swift */; };
+		13F7BA58DF86AD314EFD9407AE3C4E9A /* CardNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342DFDE1D0853ABCB268EACEE7C31EA /* CardNumberValidator.swift */; };
+		1763C1980BD14F58F52FAAD88F6CDB26 /* PaymentInitiationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FD89140BB0DD5553FC78E19B6A370 /* PaymentInitiationResponse.swift */; };
+		1857093261D2DA66F245D337706BCDA5 /* AdyenCSE.h in Headers */ = {isa = PBXBuildFile; fileRef = B66B10AA0B8FE9E49895026E741D071F /* AdyenCSE.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1A9ACED6823F49D7C8225EA64BA29775 /* UIDeviceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB59EBC8F87B7954CEA09562D18303 /* UIDeviceHelpers.swift */; };
+		1B73BC5004FCDDFC00A1B710BE246D85 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5AA13C40C2D59E81600898A1EF79FB /* FormViewController.swift */; };
+		1C4F548293F7B49CE7C40B45A0DB8D6D /* Pods-QuickStartTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC115AE498E264EA5D5C3335296BBFC0 /* Pods-QuickStartTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D3E38D5B6B4C8BCBBFBAE69D2CD39A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5454939F1438DB37334D35D41BF03A /* StringExtensions.swift */; };
+		2212EE92BC6851187CD7EDC66C5CAE3A /* Adyen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD0D028D2B86CBED323B2EF7461583C /* Adyen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		240B8F4D2BC20AEC2B2C5BEC3AD7EE35 /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD8C82B47FD95EDFF7345F85EC6884C /* PluginManager.swift */; };
+		24D5067905F050F8E22EA70BF422A097 /* LogoURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC40502E711FF5B3ED2C42170B6AD73 /* LogoURLProvider.swift */; };
+		258299DD97138E1349E159E8D0CA3C90 /* StoredPaymentMethodDeletionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58370C1EE52EEE060598475EC711ECAB /* StoredPaymentMethodDeletionRequest.swift */; };
+		25D8D89D6BE909BC9B22680E70975C65 /* PreselectedPaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B411F8306988219DD710B79993A42B0 /* PreselectedPaymentMethodViewController.swift */; };
+		26E06A9CA2F7AA371105E03883B54B0B /* Pods-QuickStart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7935502A84E53CA9F97688AAC2EFBA /* Pods-QuickStart-dummy.m */; };
+		27C42D8137A67B7595AF267F00F10680 /* GiroPayIssuerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F2E89EA8D0B86D9F0A44934AA1B6D /* GiroPayIssuerView.swift */; };
+		28478C2103A8F37E360A1DA91FA4B033 /* AdditionalPaymentDetailsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92694A3638BD94FF2B9F622B40104B46 /* AdditionalPaymentDetailsPlugin.swift */; };
+		2C6912D9E5A6A27A279E6FF67F8E779A /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BB57DBF7F080568219EC046555A6E /* CollectionExtensions.swift */; };
+		2CACF7AB94CB5674EB1294CB81A23EAE /* IBANSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889005A20ECAF4A9203110979C1C6DDF /* IBANSpecification.swift */; };
+		2E3228563CAC77344672ED9D4BB61DE8 /* NSString+AdyenURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9878D4235BC47E725B735678730F42AE /* NSString+AdyenURLEncoding.m */; };
+		312B101279F797488929F98831C0E96C /* Pods-QuickStart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF478F1D4DEBBB2EE2913C041E059BE9 /* Pods-QuickStart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F168420380C3D76F814011F61FC1EA /* CardPaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B4D6E78A572583AA5D2A26E657A41D /* CardPaymentDetails.swift */; };
+		36463615960A35689C335FD396349D81 /* CardScanProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44333C6EB06743D299ED7BCD3F14B061 /* CardScanProtocol.swift */; };
+		36BF0B808A62FA277C74770487B29265 /* CardFormFieldConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8349AFCC92CFE84357C651E189332 /* CardFormFieldConfiguration.swift */; };
+		36CE1EBDEFEA30C7CEE450D89392782F /* AdyenInternal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8CC0194852106DB0100AF2D8445ED4 /* AdyenInternal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CEE6EEF03503BDAB9052F411ED9700C /* ADYEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268420CBBB67DA293F7F12A00E17EC0 /* ADYEncrypter.m */; };
+		456B929DD34C78754153409CBD068D2D /* CardFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803614877A7451B4E13B53175B856241 /* CardFormViewController.swift */; };
+		4784B0070FAA34229DEBE8B618A7AF2E /* SEPAPaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D802953D5EA13019C2656FD73846F /* SEPAPaymentDetails.swift */; };
+		4872FD6C38E0A5F6AC6C5DDC16FFF280 /* GiroPayPaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384E0458F29AB804C1470E357C4FB5DB /* GiroPayPaymentDetails.swift */; };
+		4BFB7651B258FFAF9E83560FCADD3171 /* PaymentInitiationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808A790246D7DE54C5230B16EFA2043C /* PaymentInitiationRequest.swift */; };
+		4C80A38670BAD337AD8BB41BDDC5C644 /* ADYRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = B97FBC561C6C933219FE2BFBB14B5B1B /* ADYRSACryptor.m */; };
+		4F271544D9222089B01302B8211CBDB5 /* ShortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F6B84B63B605E7E4C3CE23A87C20D /* ShortViewController.swift */; };
+		511171A1102834739BB56586B9F1F92C /* RedirectListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC39C1510BBE66DDD5EDE1E7C448BEF7 /* RedirectListener.swift */; };
+		51628CAF56283D42DE2FFC6260CF29A6 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957BF746DDDCBA9EE18382942A98B7AA /* CardType.swift */; };
+		52617B3E6E88172AA03E8E0A62533564 /* AmountFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF913A2F5B3EDDE567F1F5856ABF23C /* AmountFormatter.swift */; };
+		53B58BCB15CE5EDBFC0623F124549C9E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A4E7EC1E98990F7AA92DD4B1CD42A /* Validator.swift */; };
+		554B8503379CCD644C4DE274EDFF119A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B579D31F83ADFED7E809658FDD392 /* APIClient.swift */; };
+		55743D11E6D023A12BCA79418FEFDF9A /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8CD9A9B556D296C37C61B79BD03E4 /* BoolExtensions.swift */; };
+		561374B001A9FB2B68EBE3E3C5778743 /* ADYCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C6E7263A4492E31D16F5154FB191F1 /* ADYCard.m */; };
+		57AC41F47457D341EEB8BD848AE71230 /* CardInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44557DBFDCA9A53701D6F358C58C9F53 /* CardInputData.swift */; };
+		5C1BB5CBBE7EAA19DEE6047768D00A02 /* NSString+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4E3D49BD47E95C308A279374BAEF3 /* NSString+AdyenUtil.m */; };
+		5E5A840C349C2AE3709B1C6EA6163F31 /* Adyen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C904D0403F11C810FABD6748176D4F1 /* Adyen-dummy.m */; };
+		61ADCADE4BC56C595CD2450BA11569E6 /* SEPADirectDebitFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1D9A779E798A30F1DA868C2DCC032 /* SEPADirectDebitFormViewController.swift */; };
+		63C721E426280792FBC92208447059C1 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3004897F78B13D08C931C38AC67C7699 /* UIImageExtensions.swift */; };
+		63FF0364E72A34D4194A766CB804D7CE /* PaymentControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A137FDCF9601EF6DC3C9E5F871A855B /* PaymentControllerDelegateProxy.swift */; };
+		646F798BA7811418D21837471CED5FAC /* CardNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98ED3138A9F2E644E88DCB11A9803F /* CardNameValidator.swift */; };
+		66A69867523C70F51D8D35FB344D8E0D /* StoredPaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA993CEF0A496E05A80F347DA9919660 /* StoredPaymentDetails.swift */; };
+		6A9A72A96439171A14DDE8D0E2AAAF81 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5278EB488450D59684A488799C7AD0E6 /* Plugin.swift */; };
+		6D973C1ACDF54F28B26D303E48BED1FA /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA570F313FE9FD51F40FD47E44A1284 /* ListItemView.swift */; };
+		72E9202F5BD02332395E09DA72038A2C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A9082D87385D802B556F4E233B94BC /* Media.xcassets */; };
+		731E0032598571714972670EFA64FC76 /* PaymentControllerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C8846602DA1B59166762F2EFD4BFB1 /* PaymentControllerError.swift */; };
+		75D3172645194DCD70DBBD830C664F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219FE9312EC89E08363E1E79887EE8CB /* Foundation.framework */; };
+		7628783DC203858F5F56B31187F3BD4D /* FormSelectField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FDF36BCFB5630D62688E76A13F9D2 /* FormSelectField.swift */; };
+		76B57A1CD4742D756E3AECB1561964D6 /* FormPickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E656D9B9372E31C75C81360DDE4CC /* FormPickerField.swift */; };
+		787B190C27A1F4F2E3B8F81734412B72 /* GiroPayIssuersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1164502766E87975AC4E9342072A40 /* GiroPayIssuersViewController.swift */; };
+		79C7040E2AA0B228C766B88FF176CCF5 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321692DEC7780DC0D79415C55B0B1AD /* Appearance.swift */; };
+		79D9F6ECDA5B98457C7B9D7BC8E0AE92 /* GiroPayFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BB880FA2498E9AA1F4C634B41BE78 /* GiroPayFormViewController.swift */; };
+		7C5E5F82FDCA61A084F301F51B74E662 /* StoredCardPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016627BA856752B08B14CEF3E735CFD4 /* StoredCardPlugin.swift */; };
+		80633B3C45E1AAC095DDE048E71D266E /* ADYAESCCMCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 480701F6C706720CDCE308812B02C299 /* ADYAESCCMCryptor.m */; };
+		84B81CA7DD62B38A167A168897E289F2 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5F1B5DA7CFFFD8919B814B85ADBE11 /* PaymentMethod.swift */; };
+		88EB942D76BBB780327B8F6922B1CB5A /* NSString+AdyenURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7A425DEDA64DE55C10BBE3F63B77D8 /* NSString+AdyenURLEncoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8B26B5B391F5F4E6C8017A17B18474D2 /* CheckoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10BD4CA3F88B3496A589DB4777B0B0 /* CheckoutButton.swift */; };
+		8B4FCF3200A2EC02108EADFC1E791D1E /* AdyenInternal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE47CE75CA6205045C6735889A912774 /* AdyenInternal.bundle */; };
+		8CD952478DB023770BCA5C5A0DBC14FF /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62572887A1CD4F8AB842D361A02FBA1 /* ListItem.swift */; };
+		9049A7535D08C019B4658D8B550AACFB /* PaymentSessionDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C694CA2C0F54473454FBE166411517 /* PaymentSessionDecoding.swift */; };
+		91E02F79335A549995FA31BAF59F446A /* AdyenInternal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9131DC7A1292303C53C6A12F6CD9AD58 /* AdyenInternal.framework */; };
+		93FAE9EF260DA083FF83C0BDA51BD77F /* ADYCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 84991EDAE0392BA185B0483B3631E247 /* ADYCard.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		94AB746980113162FAF47D02EBEFDDB8 /* Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E9D22109FCE5473BF1867FB6DD689A /* Coder.swift */; };
+		952965A8886EF0264A04532FEC001FDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17E7CCEBDE5F55ED708544AF586C4CB6 /* Localizable.strings */; };
+		989FAE10B951D75E7CFFC35B271F2165 /* PaymentDetailsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3470CECBEF151AD8871EFB215C50335 /* PaymentDetailsPlugin.swift */; };
+		99C1B6EA392C3A9130370FF09CD0FA46 /* GiroPayPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D0063A5A512A134BA0581E72C04C7 /* GiroPayPlugin.swift */; };
+		9A992E6C33B9FCAF803A6D17BFD4193D /* FormLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84096BA6038243A1E7A11DAF8616392 /* FormLabel.swift */; };
+		9BCD6EEDBCECF1460C934D0CC1E65EB3 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EEAB2506FDA6EC2276A14FE04BD71C /* Version.swift */; };
+		9D1C9755E2291C6FF1C6E703A15B576A /* GiroPayIssuer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15BB121961FC4CD714703919C549DF9 /* GiroPayIssuer.swift */; };
+		9E9C3A6A2C7C36A466F1AF670EA7D346 /* RedirectListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD657BE4D9611C8B0C1CF7685704DD /* RedirectListener.swift */; };
+		9ED8EF51C78DD43ECC5DC5AF5F45C486 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A88756BD72D43CD0BAD1A8DD653D4E1 /* FormTextField.swift */; };
+		A1B5C6364AE26C1CBAE5F35453D79555 /* FormSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6671A82F42DC4097C125735FF647F9 /* FormSection.swift */; };
+		A2C429D698EBB9CBC9FC7697EB49766A /* NSDictionary+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3724751829C00E69D8ECC4E6569E72AE /* NSDictionary+AdyenUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AA1267DF67B65543A6140062C54FB3DD /* IssuerSelectionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64686B3CD912CFB8EA2270C2762BA0BE /* IssuerSelectionPlugin.swift */; };
+		AA2074B442E3BBCFF84DE73AE55560A2 /* PreselectedPaymentMethodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0529475556668C2C62BA146B9BA522 /* PreselectedPaymentMethodManager.swift */; };
+		AA6CA11356B0AB4337BA2622DD757E33 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932EFC46FF7CE20FF3D42774EED2D61 /* ListCell.swift */; };
+		AD0CBCFEA41088FCA73E2B5998770104 /* NSDictionary+AdyenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C757197370DD678E89D6B09EDAFCC48 /* NSDictionary+AdyenUtil.m */; };
+		AD93A6284571809D0BCF9134DCC670E7 /* CheckoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8DCCB06917BD020BD73BFBD9B0CC5 /* CheckoutController.swift */; };
+		ADA9C4D7CACDD5EE570513871F08D61C /* ADYCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC1DBF98505BAC16F4CA1DE925563B2 /* ADYCryptor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AF4A3AD74EC713249013E79DAA335237 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54884841F4A1D4B4E5FEBFB9808E5EB0 /* BundleExtensions.swift */; };
+		B12D8659A27BECB43D99ADC0831FC8A8 /* AdditionalPaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ECA5E8FDB3BC93CCFE429E66A82BB8 /* AdditionalPaymentDetails.swift */; };
+		B27939BE7E375ECEE29BC87B6C86FA78 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE831FF5C9D9B551B4B362B4BAFB6B74 /* PaymentController.swift */; };
+		B55352E99DBD24459B283C708259E228 /* FormConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB17854EB61889FCF6E29EFFEC6C6FD /* FormConsentView.swift */; };
+		B76798ECB88AECC85C67408FA17CAC72 /* AdyenInternal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB7EACE89009196BAF38FDBF9CEA30 /* AdyenInternal-dummy.m */; };
+		BA8398116DCC1999282CD6F4A5C86894 /* DynamicHeightPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2446217B26771F7C22B9B4CCE415B2AE /* DynamicHeightPresentationController.swift */; };
+		BBFE07AC39BA1E248B4E3A2B31AC991F /* StoredPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95095D7E621DCE885A6E8676F5575C /* StoredPlugin.swift */; };
+		C100990487C3DE6EE69A77019BDB80DE /* RedirectPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E3CB94C7DCD2C8D16C6E83B6D7948 /* RedirectPresenter.swift */; };
+		C2C1A3DD6A9CD52A6FB307DB1303D738 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACFB42AAA8DDA5D1D6CF5E53F92627B /* Result.swift */; };
+		C673A899A59DB0D619E941B69AB70A54 /* CardPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F936E216D78B3506CB9966C098AE564 /* CardPlugin.swift */; };
+		C838E4CDF1710D8EA60FB0EB219A1288 /* PaymentResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2072417C9A732ADE228F33A07481D8DC /* PaymentResult.swift */; };
+		CD1D9A98178F7F5292253E9913881B55 /* Completion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A56F85304CB03E9FAFFE6C8850C40CF /* Completion.swift */; };
+		CECFC858421F8E8956E91A5D218F796A /* IBANTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D11041CB274D75F3DDF838BFB158048 /* IBANTextField.swift */; };
+		D00F33D5D863AD98722003660C3C6054 /* ADYCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BDE31D8CADC81C0EFF35DEC5F91D09 /* ADYCryptor.m */; };
+		D0F02CF002BFEF8FF3E366BA6554752D /* IBANValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA845850EDC8C400BE23E38E44A57D2D /* IBANValidator.swift */; };
+		D2EE25C8AAD42C7DE4191E02D384CC8C /* PaymentDetailKeyValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DC2832CBF8C141EF71FAD6506C12A /* PaymentDetailKeyValues.swift */; };
+		D419BE0C48710A7904C519B07FCE276E /* GiroPayIssuersRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC768E5DED830E971E851BFAF02B4D1 /* GiroPayIssuersRequest.swift */; };
+		D41CCC6572DBCD0E126C122A329060A5 /* ADYEncrypter.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DEF2F1E99B4296610D1C786C25EC48 /* ADYEncrypter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D752E123E5898840E735051CA4A625B3 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0A06BDC2F6977C66224CEA776C927 /* ListHeaderView.swift */; };
+		D90C7D38102E749EADB4483CD75FCDA6 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC513DFE295A77557418DBE8C4E5B6C /* URLExtensions.swift */; };
+		DB434FB4B39BB2287CBB8143F000E1D6 /* PaymentControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E76BD5588191036A95B8DE6D1C84DD /* PaymentControllerDelegate.swift */; };
+		E163A8ED18CE1A71497309A1BCC316D6 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4346290568B73C7A7C41D395A13D4 /* UIFontExtensions.swift */; };
+		E2FF5D029E4E20885055BFBC25C9E312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219FE9312EC89E08363E1E79887EE8CB /* Foundation.framework */; };
+		E3ACF0FA73EC25435FDCC8772EE568A1 /* CheckoutControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480ECC66ABBFBF6D3EE6C79F0B700198 /* CheckoutControllerDelegate.swift */; };
+		E4C372B223D09D907091E91D4F529B48 /* PaymentProcessingElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ED6DEF5DF8657ECDB178E24C7657E8 /* PaymentProcessingElement.swift */; };
+		E55DC3D1C127B3BD51741D1A7DF25701 /* IssuerPaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DE8BB7288D2D6A8794C4E4A5A7438 /* IssuerPaymentDetails.swift */; };
+		E563E37E742D325BE8687EE2915D7846 /* CardExpiryValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4395448D6D63588DBE641CA75FEDA82 /* CardExpiryValidator.swift */; };
+		E783B0453058A97DB28722E8F49096D4 /* SEPADirectDebitPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F7D015EA778FBC13993901582937A /* SEPADirectDebitPlugin.swift */; };
+		EC6B95E982747FB4C01B8421A90F37DB /* PaymentSessionToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CE13849B7B4539DFF8DB41D45BD44 /* PaymentSessionToken.swift */; };
+		F02FD83B282CEF712AA9BD360E412A3C /* StoredPaymentMethodDeletionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B67BFA73E79190D8C412DBB6A587C /* StoredPaymentMethodDeletionResponse.swift */; };
+		F3348EA2FE8AD481FE83232129C7935B /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD82A4A9F55806868DB0CFFDE3B6CB6 /* UIButtonExtensions.swift */; };
+		F3B9ECFF0D8D28D7DB7F38F65148309F /* NSString+AdyenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A5FBBFF2F6F7FCE6247C9FEA43C2E0 /* NSString+AdyenUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F40B4E534AFCC56ACAFCB54924C6315E /* PaymentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E376A90719ABDCD3CC09AE66D7886117 /* PaymentDetail.swift */; };
+		F4B5451C26C14D37DFD3B86098FF4ED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219FE9312EC89E08363E1E79887EE8CB /* Foundation.framework */; };
+		F7DC117E5B136B8B37BCFBEABEB7F299 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40352EA6FF88749383233E3775FAF9D1 /* FormView.swift */; };
+		F96C4E807BA19CA5DEFD462F5505CF83 /* CardEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90E8FC007E775DA2F23FB5D9D18590 /* CardEncryptor.swift */; };
+		FB6AB977675DC89140DCCE62E255A83D /* CardSecurityCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F3CA210DFBA384EE36668761DBA31 /* CardSecurityCodeValidator.swift */; };
+		FEC0DB2DC9A8B5C6CD0BD37C30242D1A /* FormDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108334BA95D104ACCD8E7DBFBEDC6558 /* FormDateField.swift */; };
+		FED82D7312FC691A19E8590922F2350B /* Pods-QuickStartTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C5940E4CBC1AFC04E80DE17D18397E /* Pods-QuickStartTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DE87C562003E3597B3764003F3979F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDC0AC751A2D29F9FE233209EFA77AA;
+			remoteInfo = Adyen;
+		};
+		709118B85C0233E3FC87316AE67E4A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFA58E45E3D222D4FE37715DF42B535;
+			remoteInfo = AdyenInternal;
+		};
+		768709D706985AAE0B33AAAA31F89E69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFA58E45E3D222D4FE37715DF42B535;
+			remoteInfo = AdyenInternal;
+		};
+		9F59C3CB0286940E013EBCE3F224636D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDC0AC751A2D29F9FE233209EFA77AA;
+			remoteInfo = Adyen;
+		};
+		AD0CE5FD8175BACE6670A1A7EE42A13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6484D0CFC9E80B9F21226B0C23FB2FE;
+			remoteInfo = "AdyenInternal-AdyenInternal";
+		};
+		AF24DFF904A5B38AAC2239C47A149B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244430749873E757D50BDB0C8D8387A9;
+			remoteInfo = "Pods-QuickStart";
+		};
+		C87B4B1CDAC565001995E7A09647B2ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C7A64371354943524BC30E86C545F7;
+			remoteInfo = AdyenReactNative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0093438447F38E0671C4EA105B72840F /* ADYRSACryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADYRSACryptor.h; path = AdyenCard/AdyenCSE/ADYRSACryptor.h; sourceTree = "<group>"; };
+		016627BA856752B08B14CEF3E735CFD4 /* StoredCardPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoredCardPlugin.swift; path = AdyenCard/StoredCardPlugin.swift; sourceTree = "<group>"; };
+		01ECA5E8FDB3BC93CCFE429E66A82BB8 /* AdditionalPaymentDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdditionalPaymentDetails.swift; path = Adyen/Core/Models/AdditionalPaymentDetails.swift; sourceTree = "<group>"; };
+		0AF4E3D49BD47E95C308A279374BAEF3 /* NSString+AdyenUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AdyenUtil.m"; path = "AdyenCard/AdyenCSE/NSString+AdyenUtil.m"; sourceTree = "<group>"; };
+		0B411F8306988219DD710B79993A42B0 /* PreselectedPaymentMethodViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreselectedPaymentMethodViewController.swift; path = "Adyen/UI/Preselected Payment Method/PreselectedPaymentMethodViewController.swift"; sourceTree = "<group>"; };
+		0BBC119FE18E1CFEDAF20F0DB24BA141 /* AdyenInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AdyenInternal.framework; path = AdyenInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1164502766E87975AC4E9342072A40 /* GiroPayIssuersViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiroPayIssuersViewController.swift; path = Adyen/Plugins/GiroPay/GiroPayIssuersViewController.swift; sourceTree = "<group>"; };
+		108334BA95D104ACCD8E7DBFBEDC6558 /* FormDateField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDateField.swift; path = Adyen/UI/Form/FormDateField.swift; sourceTree = "<group>"; };
+		10BB32AE46ED822001329B2C9FD22BBF /* Pods-QuickStartTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickStartTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12030ECA985940E927111914220A58FE /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1393EB9B5629C4B5A394A3D78AD4F9FA /* AdyenInternal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdyenInternal.xcconfig; sourceTree = "<group>"; };
+		15350F1D137BC04D9764E6F86DBD2222 /* Pods-QuickStart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuickStart.modulemap"; sourceTree = "<group>"; };
+		16B700C47472AF53A8C121358B6B5186 /* Pods_QuickStartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickStartTests.framework; path = "Pods-QuickStartTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178BB880FA2498E9AA1F4C634B41BE78 /* GiroPayFormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiroPayFormViewController.swift; path = Adyen/Plugins/GiroPay/GiroPayFormViewController.swift; sourceTree = "<group>"; };
+		1809B2DF5FDB9B6F2D4B223F1574DD8A /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "sv-SE.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1A2B579D31F83ADFED7E809658FDD392 /* APIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = Adyen/Core/Networking/APIClient.swift; sourceTree = "<group>"; };
+		1C5849E74D00A654F42682001741844F /* Adyen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Adyen-Info.plist"; sourceTree = "<group>"; };
+		1D11041CB274D75F3DDF838BFB158048 /* IBANTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBANTextField.swift; path = AdyenSEPA/IBAN/IBANTextField.swift; sourceTree = "<group>"; };
+		1E78E862094C956D607C91687881E92F /* CheckoutNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutNavigationController.swift; path = Adyen/UI/Checkout/CheckoutNavigationController.swift; sourceTree = "<group>"; };
+		2072417C9A732ADE228F33A07481D8DC /* PaymentResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentResult.swift; path = Adyen/Core/Models/PaymentResult.swift; sourceTree = "<group>"; };
+		20E76BD5588191036A95B8DE6D1C84DD /* PaymentControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentControllerDelegate.swift; path = "Adyen/Core/Payment Controller/PaymentControllerDelegate.swift"; sourceTree = "<group>"; };
+		219FE9312EC89E08363E1E79887EE8CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2321692DEC7780DC0D79415C55B0B1AD /* Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Appearance.swift; path = Adyen/UI/Appearance/Appearance.swift; sourceTree = "<group>"; };
+		2342DFDE1D0853ABCB268EACEE7C31EA /* CardNumberValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardNumberValidator.swift; path = AdyenCard/Utilities/CardNumberValidator.swift; sourceTree = "<group>"; };
+		234B7C8E9EFBFF08849EA3E5E7204739 /* Pods-QuickStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickStart.release.xcconfig"; sourceTree = "<group>"; };
+		2446217B26771F7C22B9B4CCE415B2AE /* DynamicHeightPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicHeightPresentationController.swift; path = "Adyen/UI/Dynamic Height Navigation Controller/DynamicHeightPresentationController.swift"; sourceTree = "<group>"; };
+		24FB7EACE89009196BAF38FDBF9CEA30 /* AdyenInternal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdyenInternal-dummy.m"; sourceTree = "<group>"; };
+		264999A7C63DB0CCC56C6C55634BE160 /* Pods-QuickStartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickStartTests.release.xcconfig"; sourceTree = "<group>"; };
+		29C694CA2C0F54473454FBE166411517 /* PaymentSessionDecoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentSessionDecoding.swift; path = Adyen/Core/Models/PaymentSessionDecoding.swift; sourceTree = "<group>"; };
+		2A95223879608F63206B6A053F7D1465 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2B2C10DB9567688F05557D23F5FC4195 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = AdyenInternal/Utilities/UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		2B3FD89140BB0DD5553FC78E19B6A370 /* PaymentInitiationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentInitiationResponse.swift; path = Adyen/Core/Networking/PaymentInitiationResponse.swift; sourceTree = "<group>"; };
+		2C904D0403F11C810FABD6748176D4F1 /* Adyen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Adyen-dummy.m"; sourceTree = "<group>"; };
+		2EC768E5DED830E971E851BFAF02B4D1 /* GiroPayIssuersRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiroPayIssuersRequest.swift; path = Adyen/Plugins/GiroPay/GiroPayIssuersRequest.swift; sourceTree = "<group>"; };
+		2F1D2FADA18EFEA33CF75DD50BD64116 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "ja-JP.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2FB8DCCB06917BD020BD73BFBD9B0CC5 /* CheckoutController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutController.swift; path = Adyen/UI/Checkout/CheckoutController.swift; sourceTree = "<group>"; };
+		2FD82A4A9F55806868DB0CFFDE3B6CB6 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = AdyenInternal/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		3004897F78B13D08C931C38AC67C7699 /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = AdyenInternal/Utilities/UIImageExtensions.swift; sourceTree = "<group>"; };
+		3268420CBBB67DA293F7F12A00E17EC0 /* ADYEncrypter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADYEncrypter.m; path = AdyenCard/AdyenCSE/ADYEncrypter.m; sourceTree = "<group>"; };
+		32ED6DEF5DF8657ECDB178E24C7657E8 /* PaymentProcessingElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentProcessingElement.swift; path = Adyen/Core/Other/PaymentProcessingElement.swift; sourceTree = "<group>"; };
+		33404B5122547F9AA44E044527BD46EA /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "it-IT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3724751829C00E69D8ECC4E6569E72AE /* NSDictionary+AdyenUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+AdyenUtil.h"; path = "AdyenCard/AdyenCSE/NSDictionary+AdyenUtil.h"; sourceTree = "<group>"; };
+		377E3CB94C7DCD2C8D16C6E83B6D7948 /* RedirectPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectPresenter.swift; path = Adyen/UI/Checkout/RedirectPresenter.swift; sourceTree = "<group>"; };
+		384E0458F29AB804C1470E357C4FB5DB /* GiroPayPaymentDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiroPayPaymentDetails.swift; path = Adyen/Plugins/GiroPay/GiroPayPaymentDetails.swift; sourceTree = "<group>"; };
+		3ACFB42AAA8DDA5D1D6CF5E53F92627B /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Adyen/Core/Other/Result.swift; sourceTree = "<group>"; };
+		3B2B52789CB46B8BDDF17D68F6C261D9 /* GiroPayIssuersResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiroPayIssuersResponse.swift; path = Adyen/Plugins/GiroPay/GiroPayIssuersResponse.swift; sourceTree = "<group>"; };
+		3C757197370DD678E89D6B09EDAFCC48 /* NSDictionary+AdyenUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AdyenUtil.m"; path = "AdyenCard/AdyenCSE/NSDictionary+AdyenUtil.m"; sourceTree = "<group>"; };
+		40352EA6FF88749383233E3775FAF9D1 /* FormView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormView.swift; path = Adyen/UI/Form/FormView.swift; sourceTree = "<group>"; };
+		432E656D9B9372E31C75C81360DDE4CC /* FormPickerField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerField.swift; path = Adyen/UI/Form/FormPickerField.swift; sourceTree = "<group>"; };
+		442D3C1DAAD1FEBEACB2E42DCA0C8B4F /* Pods_QuickStart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuickStart.framework; path = "Pods-QuickStart.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44333C6EB06743D299ED7BCD3F14B061 /* CardScanProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardScanProtocol.swift; path = AdyenCard/CardScanProtocol.swift; sourceTree = "<group>"; };
+		44557DBFDCA9A53701D6F358C58C9F53 /* CardInputData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardInputData.swift; path = AdyenCard/CardInputData.swift; sourceTree = "<group>"; };
+		46C6E7263A4492E31D16F5154FB191F1 /* ADYCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADYCard.m; path = AdyenCard/AdyenCSE/ADYCard.m; sourceTree = "<group>"; };
+		480701F6C706720CDCE308812B02C299 /* ADYAESCCMCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADYAESCCMCryptor.m; path = AdyenCard/AdyenCSE/ADYAESCCMCryptor.m; sourceTree = "<group>"; };
+		480ECC66ABBFBF6D3EE6C79F0B700198 /* CheckoutControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutControllerDelegate.swift; path = Adyen/UI/Checkout/CheckoutControllerDelegate.swift; sourceTree = "<group>"; };
+		48505F0F2C9934C9D5C28F6268212241 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "no-NO.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4E0529475556668C2C62BA146B9BA522 /* PreselectedPaymentMethodManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreselectedPaymentMethodManager.swift; path = "Adyen/UI/Preselected Payment Method/PreselectedPaymentMethodManager.swift"; sourceTree = "<group>"; };
+		4F936E216D78B3506CB9966C098AE564 /* CardPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardPlugin.swift; path = AdyenCard/CardPlugin.swift; sourceTree = "<group>"; };
+		50A6432495A09E74168AD2AD2D320183 /* Pods-QuickStart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickStart.debug.xcconfig"; sourceTree = "<group>"; };
+		5278EB488450D59684A488799C7AD0E6 /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Adyen/Core/Plugins/Plugin.swift; sourceTree = "<group>"; };
+		53BDE31D8CADC81C0EFF35DEC5F91D09 /* ADYCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADYCryptor.m; path = AdyenCard/AdyenCSE/ADYCryptor.m; sourceTree = "<group>"; };
+		54884841F4A1D4B4E5FEBFB9808E5EB0 /* BundleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleExtensions.swift; path = AdyenInternal/Utilities/BundleExtensions.swift; sourceTree = "<group>"; };
+		550FDF36BCFB5630D62688E76A13F9D2 /* FormSelectField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectField.swift; path = Adyen/UI/Form/FormSelectField.swift; sourceTree = "<group>"; };
+		57C7C74D4E6830622E25DDB90CC0364E /* SectionedPaymentMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionedPaymentMethods.swift; path = Adyen/Core/Models/SectionedPaymentMethods.swift; sourceTree = "<group>"; };
+		57E9D22109FCE5473BF1867FB6DD689A /* Coder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coder.swift; path = AdyenInternal/Utilities/Coder.swift; sourceTree = "<group>"; };
+		58370C1EE52EEE060598475EC711ECAB /* StoredPaymentMethodDeletionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoredPaymentMethodDeletionRequest.swift; path = Adyen/Core/Networking/StoredPaymentMethodDeletionRequest.swift; sourceTree = "<group>"; };
+		5932EFC46FF7CE20FF3D42774EED2D61 /* ListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCell.swift; path = Adyen/UI/List/ListCell.swift; sourceTree = "<group>"; };
+		59E96789748264BE6FDE0F29A2CF8039 /* CheckoutPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutPresenter.swift; path = Adyen/UI/Checkout/CheckoutPresenter.swift; sourceTree = "<group>"; };
+		5A5F2E89EA8D0B86D9F0A44934AA1B6D /* GiroPayIssuerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiroPayIssuerView.swift; path = Adyen/Plugins/GiroPay/GiroPayIssuerView.swift; sourceTree = "<group>"; };
+		5BA8CD9A9B556D296C37C61B79BD03E4 /* BoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtensions.swift; path = AdyenInternal/Utilities/BoolExtensions.swift; sourceTree = "<group>"; };
+		5D5F7D015EA778FBC13993901582937A /* SEPADirectDebitPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SEPADirectDebitPlugin.swift; path = AdyenSEPA/SEPADirectDebitPlugin.swift; sourceTree = "<group>"; };
+		5E09D5E2B55EEDEB210AE643E6C514EE /* Adyen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adyen-prefix.pch"; sourceTree = "<group>"; };
+		6189A4BBF1621A18DA4CD1BD852434B7 /* Pods-QuickStart-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickStart-frameworks.sh"; sourceTree = "<group>"; };
+		61B10552EB0D2FA16EA4C1BE109B1F35 /* AdyenReactNative.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdyenReactNative.xcconfig; sourceTree = "<group>"; };
+		64686B3CD912CFB8EA2270C2762BA0BE /* IssuerSelectionPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IssuerSelectionPlugin.swift; path = Adyen/Plugins/IssuerSelection/IssuerSelectionPlugin.swift; sourceTree = "<group>"; };
+		6672366527F49EBD987CB9C5C617D558 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "da-DK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6A137FDCF9601EF6DC3C9E5F871A855B /* PaymentControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentControllerDelegateProxy.swift; path = "Adyen/Core/Payment Controller/PaymentControllerDelegateProxy.swift"; sourceTree = "<group>"; };
+		6A56F85304CB03E9FAFFE6C8850C40CF /* Completion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completion.swift; path = Adyen/Core/Other/Completion.swift; sourceTree = "<group>"; };
+		6B8BB57DBF7F080568219EC046555A6E /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = AdyenInternal/Utilities/CollectionExtensions.swift; sourceTree = "<group>"; };
+		6DAA69077B01813DAA6920CA4E8D22E7 /* Pods-QuickStartTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickStartTests-Info.plist"; sourceTree = "<group>"; };
+		6F10BD4CA3F88B3496A589DB4777B0B0 /* CheckoutButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutButton.swift; path = Adyen/UI/Checkout/CheckoutButton.swift; sourceTree = "<group>"; };
+		6F8CC0194852106DB0100AF2D8445ED4 /* AdyenInternal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdyenInternal-umbrella.h"; sourceTree = "<group>"; };
+		72C45C1AB4952C77EF5DF59307594916 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		72D0A06BDC2F6977C66224CEA776C927 /* ListHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListHeaderView.swift; path = Adyen/UI/List/ListHeaderView.swift; sourceTree = "<group>"; };
+		7445115C8944C5AB69A2D12D1CFF5BF2 /* Adyen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Adyen.modulemap; sourceTree = "<group>"; };
+		7744FCABD0FE09A5C0BE05CD249135D0 /* Adyen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Adyen.framework; path = Adyen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		781B11C86ABB86C2EB22E14F3F4B9BDC /* Pods-QuickStartTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickStartTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A88756BD72D43CD0BAD1A8DD653D4E1 /* FormTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextField.swift; path = Adyen/UI/Form/FormTextField.swift; sourceTree = "<group>"; };
+		7A926BB94F13A3B360CB2542D90389C1 /* Pods-QuickStartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickStartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C7FFDB58094FD96456266119856A8F0 /* PaymentSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentSession.swift; path = Adyen/Core/Models/PaymentSession.swift; sourceTree = "<group>"; };
+		7D6671A82F42DC4097C125735FF647F9 /* FormSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSection.swift; path = Adyen/UI/Form/FormSection.swift; sourceTree = "<group>"; };
+		7DF913A2F5B3EDDE567F1F5856ABF23C /* AmountFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmountFormatter.swift; path = AdyenInternal/Models/AmountFormatter.swift; sourceTree = "<group>"; };
+		803614877A7451B4E13B53175B856241 /* CardFormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardFormViewController.swift; path = AdyenCard/CardFormViewController.swift; sourceTree = "<group>"; };
+		808A790246D7DE54C5230B16EFA2043C /* PaymentInitiationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentInitiationRequest.swift; path = Adyen/Core/Networking/PaymentInitiationRequest.swift; sourceTree = "<group>"; };
+		81C1D9A779E798A30F1DA868C2DCC032 /* SEPADirectDebitFormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SEPADirectDebitFormViewController.swift; path = AdyenSEPA/SEPADirectDebitFormViewController.swift; sourceTree = "<group>"; };
+		82BD560E8A2EDBB6E4B7F9D8BF3B5A36 /* AdyenReactNative.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AdyenReactNative.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82C8846602DA1B59166762F2EFD4BFB1 /* PaymentControllerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentControllerError.swift; path = "Adyen/Core/Payment Controller/PaymentControllerError.swift"; sourceTree = "<group>"; };
+		8328B1B7FA655EF9589D7C3B8E07DAF4 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "en-US.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		847E6CCE6AE92329578D46555E7405A7 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "es-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		84991EDAE0392BA185B0483B3631E247 /* ADYCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADYCard.h; path = AdyenCard/AdyenCSE/ADYCard.h; sourceTree = "<group>"; };
+		889005A20ECAF4A9203110979C1C6DDF /* IBANSpecification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBANSpecification.swift; path = AdyenSEPA/IBAN/IBANSpecification.swift; sourceTree = "<group>"; };
+		8A1DC2832CBF8C141EF71FAD6506C12A /* PaymentDetailKeyValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentDetailKeyValues.swift; path = Adyen/Core/Plugins/PaymentDetailKeyValues.swift; sourceTree = "<group>"; };
+		8C7A425DEDA64DE55C10BBE3F63B77D8 /* NSString+AdyenURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AdyenURLEncoding.h"; path = "AdyenCard/AdyenCSE/NSString+AdyenURLEncoding.h"; sourceTree = "<group>"; };
+		8E3D0063A5A512A134BA0581E72C04C7 /* GiroPayPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiroPayPlugin.swift; path = Adyen/Plugins/GiroPay/GiroPayPlugin.swift; sourceTree = "<group>"; };
+		8EAA97318F0FEA72CE0230B06690A71D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "nl-NL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9131DC7A1292303C53C6A12F6CD9AD58 /* AdyenInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdyenInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9141E92EE9DE51C5D0709857946B27BE /* ADYAESCCMCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADYAESCCMCryptor.h; path = AdyenCard/AdyenCSE/ADYAESCCMCryptor.h; sourceTree = "<group>"; };
+		92694A3638BD94FF2B9F622B40104B46 /* AdditionalPaymentDetailsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdditionalPaymentDetailsPlugin.swift; path = Adyen/UI/Plugins/AdditionalPaymentDetailsPlugin.swift; sourceTree = "<group>"; };
+		957BF746DDDCBA9EE18382942A98B7AA /* CardType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardType.swift; path = AdyenCard/Utilities/CardType.swift; sourceTree = "<group>"; };
+		9632D7DE42BE5AFF72101AE1955EA27E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-TW.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		976AA4254B1310265E5C905511198597 /* LoadingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingViewController.swift; path = Adyen/UI/Loading/LoadingViewController.swift; sourceTree = "<group>"; };
+		9878D4235BC47E725B735678730F42AE /* NSString+AdyenURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AdyenURLEncoding.m"; path = "AdyenCard/AdyenCSE/NSString+AdyenURLEncoding.m"; sourceTree = "<group>"; };
+		9ACD657BE4D9611C8B0C1CF7685704DD /* RedirectListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectListener.swift; path = Adyen/Core/Other/RedirectListener.swift; sourceTree = "<group>"; };
+		9B5F1B5DA7CFFFD8919B814B85ADBE11 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Adyen/Core/Models/PaymentMethod.swift; sourceTree = "<group>"; };
+		9B95095D7E621DCE885A6E8676F5575C /* StoredPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoredPlugin.swift; path = Adyen/Plugins/Stored/StoredPlugin.swift; sourceTree = "<group>"; };
+		9C427078F5FFAA06ABA30197E789CAD9 /* Pods-QuickStart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickStart-Info.plist"; sourceTree = "<group>"; };
+		9CF971430F0985C60F6DAA4A4CBA73FC /* Adyen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adyen.xcconfig; sourceTree = "<group>"; };
+		9FA570F313FE9FD51F40FD47E44A1284 /* ListItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListItemView.swift; path = Adyen/UI/List/ListItemView.swift; sourceTree = "<group>"; };
+		A27CE13849B7B4539DFF8DB41D45BD44 /* PaymentSessionToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentSessionToken.swift; path = Adyen/Core/Models/PaymentSessionToken.swift; sourceTree = "<group>"; };
+		A2A5FBBFF2F6F7FCE6247C9FEA43C2E0 /* NSString+AdyenUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AdyenUtil.h"; path = "AdyenCard/AdyenCSE/NSString+AdyenUtil.h"; sourceTree = "<group>"; };
+		A362C1223B175BCCAC68D8473BF92C88 /* ListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = Adyen/UI/List/ListViewController.swift; sourceTree = "<group>"; };
+		A5B4D6E78A572583AA5D2A26E657A41D /* CardPaymentDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardPaymentDetails.swift; path = AdyenCard/CardPaymentDetails.swift; sourceTree = "<group>"; };
+		A5C4346290568B73C7A7C41D395A13D4 /* UIFontExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtensions.swift; path = AdyenInternal/Utilities/UIFontExtensions.swift; sourceTree = "<group>"; };
+		A62572887A1CD4F8AB842D361A02FBA1 /* ListItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListItem.swift; path = Adyen/UI/List/ListItem.swift; sourceTree = "<group>"; };
+		A6AAD9CBAD97C2C47FBC3CBD3CE3A439 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-CN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		AA993CEF0A496E05A80F347DA9919660 /* StoredPaymentDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoredPaymentDetails.swift; path = Adyen/Core/Models/StoredPaymentDetails.swift; sourceTree = "<group>"; };
+		AC115AE498E264EA5D5C3335296BBFC0 /* Pods-QuickStartTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickStartTests-umbrella.h"; sourceTree = "<group>"; };
+		AEC513DFE295A77557418DBE8C4E5B6C /* URLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLExtensions.swift; path = Adyen/Core/Other/URLExtensions.swift; sourceTree = "<group>"; };
+		AF90E8FC007E775DA2F23FB5D9D18590 /* CardEncryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardEncryptor.swift; path = AdyenCard/Utilities/CardEncryptor.swift; sourceTree = "<group>"; };
+		B15BB121961FC4CD714703919C549DF9 /* GiroPayIssuer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiroPayIssuer.swift; path = Adyen/Plugins/GiroPay/GiroPayIssuer.swift; sourceTree = "<group>"; };
+		B29923C45952F57D670B62218FD5DEA5 /* URLSessionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionExtensions.swift; path = AdyenInternal/Utilities/URLSessionExtensions.swift; sourceTree = "<group>"; };
+		B2BD332396158AFF2D289885D344BB4A /* AdyenInternal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AdyenInternal-Info.plist"; sourceTree = "<group>"; };
+		B32F38D4586622795FC88FCC2FA9FA0D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "ru-RU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3CD9740BF925D91E362B103BA878795 /* Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localization.swift; path = AdyenInternal/Assets/Localization.swift; sourceTree = "<group>"; };
+		B66B10AA0B8FE9E49895026E741D071F /* AdyenCSE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdyenCSE.h; path = AdyenCard/AdyenCSE/AdyenCSE.h; sourceTree = "<group>"; };
+		B68DE8BB7288D2D6A8794C4E4A5A7438 /* IssuerPaymentDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IssuerPaymentDetails.swift; path = Adyen/Plugins/IssuerSelection/IssuerPaymentDetails.swift; sourceTree = "<group>"; };
+		B97FBC561C6C933219FE2BFBB14B5B1B /* ADYRSACryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADYRSACryptor.m; path = AdyenCard/AdyenCSE/ADYRSACryptor.m; sourceTree = "<group>"; };
+		BC39C1510BBE66DDD5EDE1E7C448BEF7 /* RedirectListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectListener.swift; path = AdyenInternal/Utilities/RedirectListener.swift; sourceTree = "<group>"; };
+		BDD0D028D2B86CBED323B2EF7461583C /* Adyen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adyen-umbrella.h"; sourceTree = "<group>"; };
+		BE5454939F1438DB37334D35D41BF03A /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = AdyenInternal/Utilities/StringExtensions.swift; sourceTree = "<group>"; };
+		BE5AA13C40C2D59E81600898A1EF79FB /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = Adyen/UI/Form/FormViewController.swift; sourceTree = "<group>"; };
+		C10CB6D2D58008143F0FDB877FA48E9C /* KeyedDecodingContainerHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedDecodingContainerHelpers.swift; path = Adyen/Core/Utilities/KeyedDecodingContainerHelpers.swift; sourceTree = "<group>"; };
+		C22F6B84B63B605E7E4C3CE23A87C20D /* ShortViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShortViewController.swift; path = "Adyen/UI/Dynamic Height Navigation Controller/ShortViewController.swift"; sourceTree = "<group>"; };
+		C4395448D6D63588DBE641CA75FEDA82 /* CardExpiryValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardExpiryValidator.swift; path = AdyenCard/Utilities/CardExpiryValidator.swift; sourceTree = "<group>"; };
+		C52A4E7EC1E98990F7AA92DD4B1CD42A /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = Adyen/Core/Utilities/Validator.swift; sourceTree = "<group>"; };
+		C63D802953D5EA13019C2656FD73846F /* SEPAPaymentDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SEPAPaymentDetails.swift; path = AdyenSEPA/SEPAPaymentDetails.swift; sourceTree = "<group>"; };
+		CE98ED3138A9F2E644E88DCB11A9803F /* CardNameValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardNameValidator.swift; path = AdyenCard/Utilities/CardNameValidator.swift; sourceTree = "<group>"; };
+		D2706892545D3E5CA405D04E199EF062 /* ResourceBundle-AdyenInternal-AdyenInternal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AdyenInternal-AdyenInternal-Info.plist"; sourceTree = "<group>"; };
+		D2823F4E8BD790071B069683430FBB50 /* AdyenInternal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdyenInternal-prefix.pch"; sourceTree = "<group>"; };
+		D3470CECBEF151AD8871EFB215C50335 /* PaymentDetailsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentDetailsPlugin.swift; path = Adyen/UI/Plugins/PaymentDetailsPlugin.swift; sourceTree = "<group>"; };
+		D3EEAB2506FDA6EC2276A14FE04BD71C /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = Adyen/Core/Other/Version.swift; sourceTree = "<group>"; };
+		D7AE84FEA530D7D259EB24D53A28DC89 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "fr-FR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D99ED737D8C87578B47666C483471D2C /* DynamicHeightNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicHeightNavigationController.swift; path = "Adyen/UI/Dynamic Height Navigation Controller/DynamicHeightNavigationController.swift"; sourceTree = "<group>"; };
+		DA845850EDC8C400BE23E38E44A57D2D /* IBANValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBANValidator.swift; path = AdyenSEPA/IBAN/IBANValidator.swift; sourceTree = "<group>"; };
+		DF478F1D4DEBBB2EE2913C041E059BE9 /* Pods-QuickStart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickStart-umbrella.h"; sourceTree = "<group>"; };
+		DFD8C82B47FD95EDFF7345F85EC6884C /* PluginManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PluginManager.swift; path = Adyen/Core/Plugins/PluginManager.swift; sourceTree = "<group>"; };
+		E1A17C9146C98D093DA8DD464E7AB1BE /* Pods-QuickStartTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuickStartTests.modulemap"; sourceTree = "<group>"; };
+		E376A90719ABDCD3CC09AE66D7886117 /* PaymentDetail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentDetail.swift; path = Adyen/Core/Models/PaymentDetail.swift; sourceTree = "<group>"; };
+		E60E2D8EA00773FBEB855BE478ED9464 /* GiroPaySearchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GiroPaySearchController.swift; path = Adyen/Plugins/GiroPay/GiroPaySearchController.swift; sourceTree = "<group>"; };
+		E62BC471C5B4E1A2893FB2FBE903D397 /* DynamicTypeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicTypeController.swift; path = AdyenInternal/Utilities/DynamicTypeController.swift; sourceTree = "<group>"; };
+		E8A20AFB8D6DE1441C19F6AA00396F04 /* Pods-QuickStart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickStart-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9F8B66EBA6641A99BD47A17B1D7995C /* CardEncryptorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardEncryptorExtensions.swift; path = AdyenCard/Utilities/CardEncryptorExtensions.swift; sourceTree = "<group>"; };
+		ED7935502A84E53CA9F97688AAC2EFBA /* Pods-QuickStart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickStart-dummy.m"; sourceTree = "<group>"; };
+		EE47CE75CA6205045C6735889A912774 /* AdyenInternal.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AdyenInternal.bundle; path = "AdyenInternal-AdyenInternal.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB17854EB61889FCF6E29EFFEC6C6FD /* FormConsentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormConsentView.swift; path = Adyen/UI/Form/FormConsentView.swift; sourceTree = "<group>"; };
+		F2DEF2F1E99B4296610D1C786C25EC48 /* ADYEncrypter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADYEncrypter.h; path = AdyenCard/AdyenCSE/ADYEncrypter.h; sourceTree = "<group>"; };
+		F40B67BFA73E79190D8C412DBB6A587C /* StoredPaymentMethodDeletionResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoredPaymentMethodDeletionResponse.swift; path = Adyen/Core/Networking/StoredPaymentMethodDeletionResponse.swift; sourceTree = "<group>"; };
+		F46F3CA210DFBA384EE36668761DBA31 /* CardSecurityCodeValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardSecurityCodeValidator.swift; path = AdyenCard/Utilities/CardSecurityCodeValidator.swift; sourceTree = "<group>"; };
+		F6A9082D87385D802B556F4E233B94BC /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = AdyenInternal/Assets/Media.xcassets; sourceTree = "<group>"; };
+		F84096BA6038243A1E7A11DAF8616392 /* FormLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabel.swift; path = Adyen/UI/Form/FormLabel.swift; sourceTree = "<group>"; };
+		F8A8349AFCC92CFE84357C651E189332 /* CardFormFieldConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardFormFieldConfiguration.swift; path = AdyenCard/CardFormFieldConfiguration.swift; sourceTree = "<group>"; };
+		F9C5940E4CBC1AFC04E80DE17D18397E /* Pods-QuickStartTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickStartTests-dummy.m"; sourceTree = "<group>"; };
+		FAAB59EBC8F87B7954CEA09562D18303 /* UIDeviceHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceHelpers.swift; path = Adyen/Core/Utilities/UIDeviceHelpers.swift; sourceTree = "<group>"; };
+		FCC40502E711FF5B3ED2C42170B6AD73 /* LogoURLProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoURLProvider.swift; path = Adyen/Core/Utilities/LogoURLProvider.swift; sourceTree = "<group>"; };
+		FCE5E62D1BBC2B04574BE54E5C0B2BC5 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FDF8055C831A894BE9ED6B8C7CD6C6C4 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "de-DE.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FE831FF5C9D9B551B4B362B4BAFB6B74 /* PaymentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentController.swift; path = "Adyen/Core/Payment Controller/PaymentController.swift"; sourceTree = "<group>"; };
+		FE9F125262777CFF7EB7745FEE422C54 /* Pods-QuickStart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickStart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEE14642D6115A260A949F71721EB2B9 /* AdyenInternal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AdyenInternal.modulemap; sourceTree = "<group>"; };
+		FFC1DBF98505BAC16F4CA1DE925563B2 /* ADYCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADYCryptor.h; path = AdyenCard/AdyenCSE/ADYCryptor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D7E081F22BD6573136DAEF8961FA9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D3172645194DCD70DBBD830C664F8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348336C6CE78E78C97402F093B6C2483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E02F79335A549995FA31BAF59F446A /* AdyenInternal.framework in Frameworks */,
+				0E7A068C134285ECE2E3B8511AF43F15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23A4F647E4D1AC6A0182DC1FCB060AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1BEE5F82D226E9E2A6B5AE1D0A826E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B5451C26C14D37DFD3B86098FF4ED3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F133FCECB4F293AA181E3349DA10371E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FF5D029E4E20885055BFBC25C9E312 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B74EFD2BAC7250CDAA9DB9018CBFAC8 /* Pods-QuickStartTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A17C9146C98D093DA8DD464E7AB1BE /* Pods-QuickStartTests.modulemap */,
+				781B11C86ABB86C2EB22E14F3F4B9BDC /* Pods-QuickStartTests-acknowledgements.markdown */,
+				10BB32AE46ED822001329B2C9FD22BBF /* Pods-QuickStartTests-acknowledgements.plist */,
+				F9C5940E4CBC1AFC04E80DE17D18397E /* Pods-QuickStartTests-dummy.m */,
+				6DAA69077B01813DAA6920CA4E8D22E7 /* Pods-QuickStartTests-Info.plist */,
+				AC115AE498E264EA5D5C3335296BBFC0 /* Pods-QuickStartTests-umbrella.h */,
+				7A926BB94F13A3B360CB2542D90389C1 /* Pods-QuickStartTests.debug.xcconfig */,
+				264999A7C63DB0CCC56C6C55634BE160 /* Pods-QuickStartTests.release.xcconfig */,
+			);
+			name = "Pods-QuickStartTests";
+			path = "Target Support Files/Pods-QuickStartTests";
+			sourceTree = "<group>";
+		};
+		2137049D43E6248F05ED0A25A9EBEA6E /* SEPA */ = {
+			isa = PBXGroup;
+			children = (
+				889005A20ECAF4A9203110979C1C6DDF /* IBANSpecification.swift */,
+				1D11041CB274D75F3DDF838BFB158048 /* IBANTextField.swift */,
+				DA845850EDC8C400BE23E38E44A57D2D /* IBANValidator.swift */,
+				81C1D9A779E798A30F1DA868C2DCC032 /* SEPADirectDebitFormViewController.swift */,
+				5D5F7D015EA778FBC13993901582937A /* SEPADirectDebitPlugin.swift */,
+				C63D802953D5EA13019C2656FD73846F /* SEPAPaymentDetails.swift */,
+			);
+			name = SEPA;
+			sourceTree = "<group>";
+		};
+		36FFA3DEF82D391DCED792CAA366BFB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE14642D6115A260A949F71721EB2B9 /* AdyenInternal.modulemap */,
+				1393EB9B5629C4B5A394A3D78AD4F9FA /* AdyenInternal.xcconfig */,
+				24FB7EACE89009196BAF38FDBF9CEA30 /* AdyenInternal-dummy.m */,
+				B2BD332396158AFF2D289885D344BB4A /* AdyenInternal-Info.plist */,
+				D2823F4E8BD790071B069683430FBB50 /* AdyenInternal-prefix.pch */,
+				6F8CC0194852106DB0100AF2D8445ED4 /* AdyenInternal-umbrella.h */,
+				D2706892545D3E5CA405D04E199EF062 /* ResourceBundle-AdyenInternal-AdyenInternal-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AdyenInternal";
+			sourceTree = "<group>";
+		};
+		3D8254E777C67F31A558C1C08C640F66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7445115C8944C5AB69A2D12D1CFF5BF2 /* Adyen.modulemap */,
+				9CF971430F0985C60F6DAA4A4CBA73FC /* Adyen.xcconfig */,
+				2C904D0403F11C810FABD6748176D4F1 /* Adyen-dummy.m */,
+				1C5849E74D00A654F42682001741844F /* Adyen-Info.plist */,
+				5E09D5E2B55EEDEB210AE643E6C514EE /* Adyen-prefix.pch */,
+				BDD0D028D2B86CBED323B2EF7461583C /* Adyen-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Adyen";
+			sourceTree = "<group>";
+		};
+		4942EF01B277904AB8474C52BB2678E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17E7CCEBDE5F55ED708544AF586C4CB6 /* Localizable.strings */,
+				F6A9082D87385D802B556F4E233B94BC /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5082FB114E1EF725B2A0503A43D4C658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7744FCABD0FE09A5C0BE05CD249135D0 /* Adyen.framework */,
+				EE47CE75CA6205045C6735889A912774 /* AdyenInternal.bundle */,
+				0BBC119FE18E1CFEDAF20F0DB24BA141 /* AdyenInternal.framework */,
+				442D3C1DAAD1FEBEACB2E42DCA0C8B4F /* Pods_QuickStart.framework */,
+				16B700C47472AF53A8C121358B6B5186 /* Pods_QuickStartTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		554098DAB72A673B4FA99EDC3F547294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9131DC7A1292303C53C6A12F6CD9AD58 /* AdyenInternal.framework */,
+				EE5A05A1E9D7DD17A7C03FE7638F925B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69FAD7A266E6A7BCFA327565D1574B65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B10552EB0D2FA16EA4C1BE109B1F35 /* AdyenReactNative.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../ios/Pods/Target Support Files/AdyenReactNative";
+			sourceTree = "<group>";
+		};
+		720D6A28DB1B64A70278EE58426DF664 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C2179B0792D363A9A7FE14EC46D39 /* Pods-QuickStart */,
+				0B74EFD2BAC7250CDAA9DB9018CBFAC8 /* Pods-QuickStartTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				DC2E7BCD1C0EB43CA4E2C240705B16D8 /* Development Pods */,
+				554098DAB72A673B4FA99EDC3F547294 /* Frameworks */,
+				DAB0D57A1732B3B0538465BC81026420 /* Pods */,
+				5082FB114E1EF725B2A0503A43D4C658 /* Products */,
+				720D6A28DB1B64A70278EE58426DF664 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		842119F2B1B91EE2281AD16E68EBA7BA /* Adyen */ = {
+			isa = PBXGroup;
+			children = (
+				AF214EE511BEFEF7F3E131C471C57A32 /* Card */,
+				912048027191AA46009C20B29A95B417 /* Core */,
+				2137049D43E6248F05ED0A25A9EBEA6E /* SEPA */,
+				3D8254E777C67F31A558C1C08C640F66 /* Support Files */,
+			);
+			name = Adyen;
+			path = Adyen;
+			sourceTree = "<group>";
+		};
+		912048027191AA46009C20B29A95B417 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				01ECA5E8FDB3BC93CCFE429E66A82BB8 /* AdditionalPaymentDetails.swift */,
+				92694A3638BD94FF2B9F622B40104B46 /* AdditionalPaymentDetailsPlugin.swift */,
+				1A2B579D31F83ADFED7E809658FDD392 /* APIClient.swift */,
+				2321692DEC7780DC0D79415C55B0B1AD /* Appearance.swift */,
+				6F10BD4CA3F88B3496A589DB4777B0B0 /* CheckoutButton.swift */,
+				2FB8DCCB06917BD020BD73BFBD9B0CC5 /* CheckoutController.swift */,
+				480ECC66ABBFBF6D3EE6C79F0B700198 /* CheckoutControllerDelegate.swift */,
+				1E78E862094C956D607C91687881E92F /* CheckoutNavigationController.swift */,
+				59E96789748264BE6FDE0F29A2CF8039 /* CheckoutPresenter.swift */,
+				6A56F85304CB03E9FAFFE6C8850C40CF /* Completion.swift */,
+				D99ED737D8C87578B47666C483471D2C /* DynamicHeightNavigationController.swift */,
+				2446217B26771F7C22B9B4CCE415B2AE /* DynamicHeightPresentationController.swift */,
+				EEB17854EB61889FCF6E29EFFEC6C6FD /* FormConsentView.swift */,
+				108334BA95D104ACCD8E7DBFBEDC6558 /* FormDateField.swift */,
+				F84096BA6038243A1E7A11DAF8616392 /* FormLabel.swift */,
+				432E656D9B9372E31C75C81360DDE4CC /* FormPickerField.swift */,
+				7D6671A82F42DC4097C125735FF647F9 /* FormSection.swift */,
+				550FDF36BCFB5630D62688E76A13F9D2 /* FormSelectField.swift */,
+				7A88756BD72D43CD0BAD1A8DD653D4E1 /* FormTextField.swift */,
+				40352EA6FF88749383233E3775FAF9D1 /* FormView.swift */,
+				BE5AA13C40C2D59E81600898A1EF79FB /* FormViewController.swift */,
+				178BB880FA2498E9AA1F4C634B41BE78 /* GiroPayFormViewController.swift */,
+				B15BB121961FC4CD714703919C549DF9 /* GiroPayIssuer.swift */,
+				2EC768E5DED830E971E851BFAF02B4D1 /* GiroPayIssuersRequest.swift */,
+				3B2B52789CB46B8BDDF17D68F6C261D9 /* GiroPayIssuersResponse.swift */,
+				0D1164502766E87975AC4E9342072A40 /* GiroPayIssuersViewController.swift */,
+				5A5F2E89EA8D0B86D9F0A44934AA1B6D /* GiroPayIssuerView.swift */,
+				384E0458F29AB804C1470E357C4FB5DB /* GiroPayPaymentDetails.swift */,
+				8E3D0063A5A512A134BA0581E72C04C7 /* GiroPayPlugin.swift */,
+				E60E2D8EA00773FBEB855BE478ED9464 /* GiroPaySearchController.swift */,
+				B68DE8BB7288D2D6A8794C4E4A5A7438 /* IssuerPaymentDetails.swift */,
+				64686B3CD912CFB8EA2270C2762BA0BE /* IssuerSelectionPlugin.swift */,
+				C10CB6D2D58008143F0FDB877FA48E9C /* KeyedDecodingContainerHelpers.swift */,
+				5932EFC46FF7CE20FF3D42774EED2D61 /* ListCell.swift */,
+				72D0A06BDC2F6977C66224CEA776C927 /* ListHeaderView.swift */,
+				A62572887A1CD4F8AB842D361A02FBA1 /* ListItem.swift */,
+				9FA570F313FE9FD51F40FD47E44A1284 /* ListItemView.swift */,
+				A362C1223B175BCCAC68D8473BF92C88 /* ListViewController.swift */,
+				976AA4254B1310265E5C905511198597 /* LoadingViewController.swift */,
+				FCC40502E711FF5B3ED2C42170B6AD73 /* LogoURLProvider.swift */,
+				FE831FF5C9D9B551B4B362B4BAFB6B74 /* PaymentController.swift */,
+				20E76BD5588191036A95B8DE6D1C84DD /* PaymentControllerDelegate.swift */,
+				6A137FDCF9601EF6DC3C9E5F871A855B /* PaymentControllerDelegateProxy.swift */,
+				82C8846602DA1B59166762F2EFD4BFB1 /* PaymentControllerError.swift */,
+				E376A90719ABDCD3CC09AE66D7886117 /* PaymentDetail.swift */,
+				8A1DC2832CBF8C141EF71FAD6506C12A /* PaymentDetailKeyValues.swift */,
+				D3470CECBEF151AD8871EFB215C50335 /* PaymentDetailsPlugin.swift */,
+				808A790246D7DE54C5230B16EFA2043C /* PaymentInitiationRequest.swift */,
+				2B3FD89140BB0DD5553FC78E19B6A370 /* PaymentInitiationResponse.swift */,
+				9B5F1B5DA7CFFFD8919B814B85ADBE11 /* PaymentMethod.swift */,
+				32ED6DEF5DF8657ECDB178E24C7657E8 /* PaymentProcessingElement.swift */,
+				2072417C9A732ADE228F33A07481D8DC /* PaymentResult.swift */,
+				7C7FFDB58094FD96456266119856A8F0 /* PaymentSession.swift */,
+				29C694CA2C0F54473454FBE166411517 /* PaymentSessionDecoding.swift */,
+				A27CE13849B7B4539DFF8DB41D45BD44 /* PaymentSessionToken.swift */,
+				5278EB488450D59684A488799C7AD0E6 /* Plugin.swift */,
+				DFD8C82B47FD95EDFF7345F85EC6884C /* PluginManager.swift */,
+				4E0529475556668C2C62BA146B9BA522 /* PreselectedPaymentMethodManager.swift */,
+				0B411F8306988219DD710B79993A42B0 /* PreselectedPaymentMethodViewController.swift */,
+				9ACD657BE4D9611C8B0C1CF7685704DD /* RedirectListener.swift */,
+				377E3CB94C7DCD2C8D16C6E83B6D7948 /* RedirectPresenter.swift */,
+				3ACFB42AAA8DDA5D1D6CF5E53F92627B /* Result.swift */,
+				57C7C74D4E6830622E25DDB90CC0364E /* SectionedPaymentMethods.swift */,
+				C22F6B84B63B605E7E4C3CE23A87C20D /* ShortViewController.swift */,
+				AA993CEF0A496E05A80F347DA9919660 /* StoredPaymentDetails.swift */,
+				58370C1EE52EEE060598475EC711ECAB /* StoredPaymentMethodDeletionRequest.swift */,
+				F40B67BFA73E79190D8C412DBB6A587C /* StoredPaymentMethodDeletionResponse.swift */,
+				9B95095D7E621DCE885A6E8676F5575C /* StoredPlugin.swift */,
+				FAAB59EBC8F87B7954CEA09562D18303 /* UIDeviceHelpers.swift */,
+				AEC513DFE295A77557418DBE8C4E5B6C /* URLExtensions.swift */,
+				C52A4E7EC1E98990F7AA92DD4B1CD42A /* Validator.swift */,
+				D3EEAB2506FDA6EC2276A14FE04BD71C /* Version.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AB098B9C37A0DF20D9E63A7D84C2EF12 /* AdyenInternal */ = {
+			isa = PBXGroup;
+			children = (
+				7DF913A2F5B3EDDE567F1F5856ABF23C /* AmountFormatter.swift */,
+				5BA8CD9A9B556D296C37C61B79BD03E4 /* BoolExtensions.swift */,
+				54884841F4A1D4B4E5FEBFB9808E5EB0 /* BundleExtensions.swift */,
+				57E9D22109FCE5473BF1867FB6DD689A /* Coder.swift */,
+				6B8BB57DBF7F080568219EC046555A6E /* CollectionExtensions.swift */,
+				E62BC471C5B4E1A2893FB2FBE903D397 /* DynamicTypeController.swift */,
+				B3CD9740BF925D91E362B103BA878795 /* Localization.swift */,
+				BC39C1510BBE66DDD5EDE1E7C448BEF7 /* RedirectListener.swift */,
+				BE5454939F1438DB37334D35D41BF03A /* StringExtensions.swift */,
+				2FD82A4A9F55806868DB0CFFDE3B6CB6 /* UIButtonExtensions.swift */,
+				A5C4346290568B73C7A7C41D395A13D4 /* UIFontExtensions.swift */,
+				3004897F78B13D08C931C38AC67C7699 /* UIImageExtensions.swift */,
+				2B2C10DB9567688F05557D23F5FC4195 /* UIImageViewExtensions.swift */,
+				B29923C45952F57D670B62218FD5DEA5 /* URLSessionExtensions.swift */,
+				4942EF01B277904AB8474C52BB2678E2 /* Resources */,
+				36FFA3DEF82D391DCED792CAA366BFB9 /* Support Files */,
+			);
+			name = AdyenInternal;
+			path = AdyenInternal;
+			sourceTree = "<group>";
+		};
+		AE5C2179B0792D363A9A7FE14EC46D39 /* Pods-QuickStart */ = {
+			isa = PBXGroup;
+			children = (
+				15350F1D137BC04D9764E6F86DBD2222 /* Pods-QuickStart.modulemap */,
+				FE9F125262777CFF7EB7745FEE422C54 /* Pods-QuickStart-acknowledgements.markdown */,
+				E8A20AFB8D6DE1441C19F6AA00396F04 /* Pods-QuickStart-acknowledgements.plist */,
+				ED7935502A84E53CA9F97688AAC2EFBA /* Pods-QuickStart-dummy.m */,
+				6189A4BBF1621A18DA4CD1BD852434B7 /* Pods-QuickStart-frameworks.sh */,
+				9C427078F5FFAA06ABA30197E789CAD9 /* Pods-QuickStart-Info.plist */,
+				DF478F1D4DEBBB2EE2913C041E059BE9 /* Pods-QuickStart-umbrella.h */,
+				50A6432495A09E74168AD2AD2D320183 /* Pods-QuickStart.debug.xcconfig */,
+				234B7C8E9EFBFF08849EA3E5E7204739 /* Pods-QuickStart.release.xcconfig */,
+			);
+			name = "Pods-QuickStart";
+			path = "Target Support Files/Pods-QuickStart";
+			sourceTree = "<group>";
+		};
+		AF214EE511BEFEF7F3E131C471C57A32 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				9141E92EE9DE51C5D0709857946B27BE /* ADYAESCCMCryptor.h */,
+				480701F6C706720CDCE308812B02C299 /* ADYAESCCMCryptor.m */,
+				84991EDAE0392BA185B0483B3631E247 /* ADYCard.h */,
+				46C6E7263A4492E31D16F5154FB191F1 /* ADYCard.m */,
+				FFC1DBF98505BAC16F4CA1DE925563B2 /* ADYCryptor.h */,
+				53BDE31D8CADC81C0EFF35DEC5F91D09 /* ADYCryptor.m */,
+				F2DEF2F1E99B4296610D1C786C25EC48 /* ADYEncrypter.h */,
+				3268420CBBB67DA293F7F12A00E17EC0 /* ADYEncrypter.m */,
+				B66B10AA0B8FE9E49895026E741D071F /* AdyenCSE.h */,
+				0093438447F38E0671C4EA105B72840F /* ADYRSACryptor.h */,
+				B97FBC561C6C933219FE2BFBB14B5B1B /* ADYRSACryptor.m */,
+				AF90E8FC007E775DA2F23FB5D9D18590 /* CardEncryptor.swift */,
+				E9F8B66EBA6641A99BD47A17B1D7995C /* CardEncryptorExtensions.swift */,
+				C4395448D6D63588DBE641CA75FEDA82 /* CardExpiryValidator.swift */,
+				F8A8349AFCC92CFE84357C651E189332 /* CardFormFieldConfiguration.swift */,
+				803614877A7451B4E13B53175B856241 /* CardFormViewController.swift */,
+				44557DBFDCA9A53701D6F358C58C9F53 /* CardInputData.swift */,
+				CE98ED3138A9F2E644E88DCB11A9803F /* CardNameValidator.swift */,
+				2342DFDE1D0853ABCB268EACEE7C31EA /* CardNumberValidator.swift */,
+				A5B4D6E78A572583AA5D2A26E657A41D /* CardPaymentDetails.swift */,
+				4F936E216D78B3506CB9966C098AE564 /* CardPlugin.swift */,
+				44333C6EB06743D299ED7BCD3F14B061 /* CardScanProtocol.swift */,
+				F46F3CA210DFBA384EE36668761DBA31 /* CardSecurityCodeValidator.swift */,
+				957BF746DDDCBA9EE18382942A98B7AA /* CardType.swift */,
+				3724751829C00E69D8ECC4E6569E72AE /* NSDictionary+AdyenUtil.h */,
+				3C757197370DD678E89D6B09EDAFCC48 /* NSDictionary+AdyenUtil.m */,
+				8C7A425DEDA64DE55C10BBE3F63B77D8 /* NSString+AdyenURLEncoding.h */,
+				9878D4235BC47E725B735678730F42AE /* NSString+AdyenURLEncoding.m */,
+				A2A5FBBFF2F6F7FCE6247C9FEA43C2E0 /* NSString+AdyenUtil.h */,
+				0AF4E3D49BD47E95C308A279374BAEF3 /* NSString+AdyenUtil.m */,
+				016627BA856752B08B14CEF3E735CFD4 /* StoredCardPlugin.swift */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		D7BE43CA753C51C6F3F2790950FDAA2F /* AdyenReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				E48C2A85A8240FCDB7293A4EFD5C047D /* Pod */,
+				69FAD7A266E6A7BCFA327565D1574B65 /* Support Files */,
+			);
+			name = AdyenReactNative;
+			path = "../../node_modules/adyen-react-native";
+			sourceTree = "<group>";
+		};
+		DAB0D57A1732B3B0538465BC81026420 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				842119F2B1B91EE2281AD16E68EBA7BA /* Adyen */,
+				AB098B9C37A0DF20D9E63A7D84C2EF12 /* AdyenInternal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC2E7BCD1C0EB43CA4E2C240705B16D8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7BE43CA753C51C6F3F2790950FDAA2F /* AdyenReactNative */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E48C2A85A8240FCDB7293A4EFD5C047D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82BD560E8A2EDBB6E4B7F9D8BF3B5A36 /* AdyenReactNative.podspec */,
+				2A95223879608F63206B6A053F7D1465 /* LICENSE */,
+				72C45C1AB4952C77EF5DF59307594916 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EE5A05A1E9D7DD17A7C03FE7638F925B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				219FE9312EC89E08363E1E79887EE8CB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48358B99821C6BE0198FB603E7E61F62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4F548293F7B49CE7C40B45A0DB8D6D /* Pods-QuickStartTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86960CCF41F4275F85AAF08A340BED4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312B101279F797488929F98831C0E96C /* Pods-QuickStart-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D0BB9EE1546689B35563E8E2C3B1DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE1EBDEFEA30C7CEE450D89392782F /* AdyenInternal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24C2950337849EDA67EDBB1B21E1885 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A8A446EB5C532E0DBF3FE07BB12442 /* ADYAESCCMCryptor.h in Headers */,
+				93FAE9EF260DA083FF83C0BDA51BD77F /* ADYCard.h in Headers */,
+				ADA9C4D7CACDD5EE570513871F08D61C /* ADYCryptor.h in Headers */,
+				2212EE92BC6851187CD7EDC66C5CAE3A /* Adyen-umbrella.h in Headers */,
+				D41CCC6572DBCD0E126C122A329060A5 /* ADYEncrypter.h in Headers */,
+				1857093261D2DA66F245D337706BCDA5 /* AdyenCSE.h in Headers */,
+				0A8B910C3891BA19BD42A86C289DE030 /* ADYRSACryptor.h in Headers */,
+				A2C429D698EBB9CBC9FC7697EB49766A /* NSDictionary+AdyenUtil.h in Headers */,
+				88EB942D76BBB780327B8F6922B1CB5A /* NSString+AdyenURLEncoding.h in Headers */,
+				F3B9ECFF0D8D28D7DB7F38F65148309F /* NSString+AdyenUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EFA58E45E3D222D4FE37715DF42B535 /* AdyenInternal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E981E1DF40617D65279D85186F2E57E /* Build configuration list for PBXNativeTarget "AdyenInternal" */;
+			buildPhases = (
+				A6D0BB9EE1546689B35563E8E2C3B1DA /* Headers */,
+				01EF9B30729DD48CA203B5136987A6E2 /* Sources */,
+				CB1BEE5F82D226E9E2A6B5AE1D0A826E /* Frameworks */,
+				D22D42EB1A5853401B78A62B16822B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EC745D91ABC5D10BD61B9250B4B1D4D /* PBXTargetDependency */,
+			);
+			name = AdyenInternal;
+			productName = AdyenInternal;
+			productReference = 0BBC119FE18E1CFEDAF20F0DB24BA141 /* AdyenInternal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		244430749873E757D50BDB0C8D8387A9 /* Pods-QuickStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E856DA9D2268F2A8CB2560B5D2C1F33 /* Build configuration list for PBXNativeTarget "Pods-QuickStart" */;
+			buildPhases = (
+				86960CCF41F4275F85AAF08A340BED4A /* Headers */,
+				395609EBFD14BA896568F6417EEEB526 /* Sources */,
+				F133FCECB4F293AA181E3349DA10371E /* Frameworks */,
+				8BDD22417817350471A25BDF84F33D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709FDBA1475DE501376D32454BE065BB /* PBXTargetDependency */,
+				EA7831A54F2796C639F2F4D75E9E5F91 /* PBXTargetDependency */,
+				97CBD125D710E568A683494AF4D2BF0E /* PBXTargetDependency */,
+			);
+			name = "Pods-QuickStart";
+			productName = "Pods-QuickStart";
+			productReference = 442D3C1DAAD1FEBEACB2E42DCA0C8B4F /* Pods_QuickStart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2BFD51D3AFCF0CC7111D1D99D3E133BB /* Pods-QuickStartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BD7BAF2C57CE881F13A0FB25B510C7 /* Build configuration list for PBXNativeTarget "Pods-QuickStartTests" */;
+			buildPhases = (
+				48358B99821C6BE0198FB603E7E61F62 /* Headers */,
+				E9FFEF6922790EB2883B9DDD9E5D7C23 /* Sources */,
+				0D7E081F22BD6573136DAEF8961FA9E4 /* Frameworks */,
+				709872884B2AC5AD0EF6F40F828645EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F230EC20EBB984800A501A22C98486 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuickStartTests";
+			productName = "Pods-QuickStartTests";
+			productReference = 16B700C47472AF53A8C121358B6B5186 /* Pods_QuickStartTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FDC0AC751A2D29F9FE233209EFA77AA /* Adyen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A502B685ACB5ED6351D7DADD6A5C1DBD /* Build configuration list for PBXNativeTarget "Adyen" */;
+			buildPhases = (
+				F24C2950337849EDA67EDBB1B21E1885 /* Headers */,
+				7B083953D89DE927219BEBF05DA0F0E8 /* Sources */,
+				348336C6CE78E78C97402F093B6C2483 /* Frameworks */,
+				AFAFE2A393ADADEC065F1783D1DE5A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8500C13A795CDF1F9923D1DEA9A6728C /* PBXTargetDependency */,
+			);
+			name = Adyen;
+			productName = Adyen;
+			productReference = 7744FCABD0FE09A5C0BE05CD249135D0 /* Adyen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6484D0CFC9E80B9F21226B0C23FB2FE /* AdyenInternal-AdyenInternal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89344E3B7E7391C2DFFDECB43FA86FC3 /* Build configuration list for PBXNativeTarget "AdyenInternal-AdyenInternal" */;
+			buildPhases = (
+				0A1BBD420E63C6D0293A780008172257 /* Sources */,
+				B23A4F647E4D1AC6A0182DC1FCB060AF /* Frameworks */,
+				96825A8307E3678A09A8BCB99AA40DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AdyenInternal-AdyenInternal";
+			productName = "AdyenInternal-AdyenInternal";
+			productReference = EE47CE75CA6205045C6735889A912774 /* AdyenInternal.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5082FB114E1EF725B2A0503A43D4C658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FDC0AC751A2D29F9FE233209EFA77AA /* Adyen */,
+				1EFA58E45E3D222D4FE37715DF42B535 /* AdyenInternal */,
+				D6484D0CFC9E80B9F21226B0C23FB2FE /* AdyenInternal-AdyenInternal */,
+				A2C7A64371354943524BC30E86C545F7 /* AdyenReactNative */,
+				244430749873E757D50BDB0C8D8387A9 /* Pods-QuickStart */,
+				2BFD51D3AFCF0CC7111D1D99D3E133BB /* Pods-QuickStartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709872884B2AC5AD0EF6F40F828645EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDD22417817350471A25BDF84F33D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96825A8307E3678A09A8BCB99AA40DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952965A8886EF0264A04532FEC001FDA /* Localizable.strings in Resources */,
+				72E9202F5BD02332395E09DA72038A2C /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAFE2A393ADADEC065F1783D1DE5A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22D42EB1A5853401B78A62B16822B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4FCF3200A2EC02108EADFC1E791D1E /* AdyenInternal.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01EF9B30729DD48CA203B5136987A6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76798ECB88AECC85C67408FA17CAC72 /* AdyenInternal-dummy.m in Sources */,
+				52617B3E6E88172AA03E8E0A62533564 /* AmountFormatter.swift in Sources */,
+				55743D11E6D023A12BCA79418FEFDF9A /* BoolExtensions.swift in Sources */,
+				AF4A3AD74EC713249013E79DAA335237 /* BundleExtensions.swift in Sources */,
+				94AB746980113162FAF47D02EBEFDDB8 /* Coder.swift in Sources */,
+				2C6912D9E5A6A27A279E6FF67F8E779A /* CollectionExtensions.swift in Sources */,
+				055A961E1B517BC54BE5BF3456CB6368 /* DynamicTypeController.swift in Sources */,
+				0B5D00C338722D1D325800024C042BC3 /* Localization.swift in Sources */,
+				511171A1102834739BB56586B9F1F92C /* RedirectListener.swift in Sources */,
+				20D3E38D5B6B4C8BCBBFBAE69D2CD39A /* StringExtensions.swift in Sources */,
+				F3348EA2FE8AD481FE83232129C7935B /* UIButtonExtensions.swift in Sources */,
+				E163A8ED18CE1A71497309A1BCC316D6 /* UIFontExtensions.swift in Sources */,
+				63C721E426280792FBC92208447059C1 /* UIImageExtensions.swift in Sources */,
+				07ECFC9055F42D93B42A4E6E27B510B3 /* UIImageViewExtensions.swift in Sources */,
+				09FCC7E0FFEE8BDF52E97AC5B240AF24 /* URLSessionExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1BBD420E63C6D0293A780008172257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395609EBFD14BA896568F6417EEEB526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E06A9CA2F7AA371105E03883B54B0B /* Pods-QuickStart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B083953D89DE927219BEBF05DA0F0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12D8659A27BECB43D99ADC0831FC8A8 /* AdditionalPaymentDetails.swift in Sources */,
+				28478C2103A8F37E360A1DA91FA4B033 /* AdditionalPaymentDetailsPlugin.swift in Sources */,
+				80633B3C45E1AAC095DDE048E71D266E /* ADYAESCCMCryptor.m in Sources */,
+				561374B001A9FB2B68EBE3E3C5778743 /* ADYCard.m in Sources */,
+				D00F33D5D863AD98722003660C3C6054 /* ADYCryptor.m in Sources */,
+				5E5A840C349C2AE3709B1C6EA6163F31 /* Adyen-dummy.m in Sources */,
+				3CEE6EEF03503BDAB9052F411ED9700C /* ADYEncrypter.m in Sources */,
+				4C80A38670BAD337AD8BB41BDDC5C644 /* ADYRSACryptor.m in Sources */,
+				554B8503379CCD644C4DE274EDFF119A /* APIClient.swift in Sources */,
+				79C7040E2AA0B228C766B88FF176CCF5 /* Appearance.swift in Sources */,
+				F96C4E807BA19CA5DEFD462F5505CF83 /* CardEncryptor.swift in Sources */,
+				03490D5DE3758185D1449ED03F0672CB /* CardEncryptorExtensions.swift in Sources */,
+				E563E37E742D325BE8687EE2915D7846 /* CardExpiryValidator.swift in Sources */,
+				36BF0B808A62FA277C74770487B29265 /* CardFormFieldConfiguration.swift in Sources */,
+				456B929DD34C78754153409CBD068D2D /* CardFormViewController.swift in Sources */,
+				57AC41F47457D341EEB8BD848AE71230 /* CardInputData.swift in Sources */,
+				646F798BA7811418D21837471CED5FAC /* CardNameValidator.swift in Sources */,
+				13F7BA58DF86AD314EFD9407AE3C4E9A /* CardNumberValidator.swift in Sources */,
+				32F168420380C3D76F814011F61FC1EA /* CardPaymentDetails.swift in Sources */,
+				C673A899A59DB0D619E941B69AB70A54 /* CardPlugin.swift in Sources */,
+				36463615960A35689C335FD396349D81 /* CardScanProtocol.swift in Sources */,
+				FB6AB977675DC89140DCCE62E255A83D /* CardSecurityCodeValidator.swift in Sources */,
+				51628CAF56283D42DE2FFC6260CF29A6 /* CardType.swift in Sources */,
+				8B26B5B391F5F4E6C8017A17B18474D2 /* CheckoutButton.swift in Sources */,
+				AD93A6284571809D0BCF9134DCC670E7 /* CheckoutController.swift in Sources */,
+				E3ACF0FA73EC25435FDCC8772EE568A1 /* CheckoutControllerDelegate.swift in Sources */,
+				0A7EA47CF743FCF5BE4F0C7E7058926A /* CheckoutNavigationController.swift in Sources */,
+				01CB8C9DBF724558581778E1EBBC5CA1 /* CheckoutPresenter.swift in Sources */,
+				CD1D9A98178F7F5292253E9913881B55 /* Completion.swift in Sources */,
+				05EE3E1655217C1175379A10E06719B2 /* DynamicHeightNavigationController.swift in Sources */,
+				BA8398116DCC1999282CD6F4A5C86894 /* DynamicHeightPresentationController.swift in Sources */,
+				B55352E99DBD24459B283C708259E228 /* FormConsentView.swift in Sources */,
+				FEC0DB2DC9A8B5C6CD0BD37C30242D1A /* FormDateField.swift in Sources */,
+				9A992E6C33B9FCAF803A6D17BFD4193D /* FormLabel.swift in Sources */,
+				76B57A1CD4742D756E3AECB1561964D6 /* FormPickerField.swift in Sources */,
+				A1B5C6364AE26C1CBAE5F35453D79555 /* FormSection.swift in Sources */,
+				7628783DC203858F5F56B31187F3BD4D /* FormSelectField.swift in Sources */,
+				9ED8EF51C78DD43ECC5DC5AF5F45C486 /* FormTextField.swift in Sources */,
+				F7DC117E5B136B8B37BCFBEABEB7F299 /* FormView.swift in Sources */,
+				1B73BC5004FCDDFC00A1B710BE246D85 /* FormViewController.swift in Sources */,
+				79D9F6ECDA5B98457C7B9D7BC8E0AE92 /* GiroPayFormViewController.swift in Sources */,
+				9D1C9755E2291C6FF1C6E703A15B576A /* GiroPayIssuer.swift in Sources */,
+				D419BE0C48710A7904C519B07FCE276E /* GiroPayIssuersRequest.swift in Sources */,
+				13635A648FD1FF77262C7360A6EFCA2F /* GiroPayIssuersResponse.swift in Sources */,
+				787B190C27A1F4F2E3B8F81734412B72 /* GiroPayIssuersViewController.swift in Sources */,
+				27C42D8137A67B7595AF267F00F10680 /* GiroPayIssuerView.swift in Sources */,
+				4872FD6C38E0A5F6AC6C5DDC16FFF280 /* GiroPayPaymentDetails.swift in Sources */,
+				99C1B6EA392C3A9130370FF09CD0FA46 /* GiroPayPlugin.swift in Sources */,
+				0B07874C4B111CDFF3A6E6E0CB1281AE /* GiroPaySearchController.swift in Sources */,
+				2CACF7AB94CB5674EB1294CB81A23EAE /* IBANSpecification.swift in Sources */,
+				CECFC858421F8E8956E91A5D218F796A /* IBANTextField.swift in Sources */,
+				D0F02CF002BFEF8FF3E366BA6554752D /* IBANValidator.swift in Sources */,
+				E55DC3D1C127B3BD51741D1A7DF25701 /* IssuerPaymentDetails.swift in Sources */,
+				AA1267DF67B65543A6140062C54FB3DD /* IssuerSelectionPlugin.swift in Sources */,
+				00D506F08F5FC4749EFC0B3AC43568B1 /* KeyedDecodingContainerHelpers.swift in Sources */,
+				AA6CA11356B0AB4337BA2622DD757E33 /* ListCell.swift in Sources */,
+				D752E123E5898840E735051CA4A625B3 /* ListHeaderView.swift in Sources */,
+				8CD952478DB023770BCA5C5A0DBC14FF /* ListItem.swift in Sources */,
+				6D973C1ACDF54F28B26D303E48BED1FA /* ListItemView.swift in Sources */,
+				08CE1BE6F4C5C03C6858214D3B5187A3 /* ListViewController.swift in Sources */,
+				0B37BC8A52D8C53BD9BFDCF0F5C854E6 /* LoadingViewController.swift in Sources */,
+				24D5067905F050F8E22EA70BF422A097 /* LogoURLProvider.swift in Sources */,
+				AD0CBCFEA41088FCA73E2B5998770104 /* NSDictionary+AdyenUtil.m in Sources */,
+				2E3228563CAC77344672ED9D4BB61DE8 /* NSString+AdyenURLEncoding.m in Sources */,
+				5C1BB5CBBE7EAA19DEE6047768D00A02 /* NSString+AdyenUtil.m in Sources */,
+				B27939BE7E375ECEE29BC87B6C86FA78 /* PaymentController.swift in Sources */,
+				DB434FB4B39BB2287CBB8143F000E1D6 /* PaymentControllerDelegate.swift in Sources */,
+				63FF0364E72A34D4194A766CB804D7CE /* PaymentControllerDelegateProxy.swift in Sources */,
+				731E0032598571714972670EFA64FC76 /* PaymentControllerError.swift in Sources */,
+				F40B4E534AFCC56ACAFCB54924C6315E /* PaymentDetail.swift in Sources */,
+				D2EE25C8AAD42C7DE4191E02D384CC8C /* PaymentDetailKeyValues.swift in Sources */,
+				989FAE10B951D75E7CFFC35B271F2165 /* PaymentDetailsPlugin.swift in Sources */,
+				4BFB7651B258FFAF9E83560FCADD3171 /* PaymentInitiationRequest.swift in Sources */,
+				1763C1980BD14F58F52FAAD88F6CDB26 /* PaymentInitiationResponse.swift in Sources */,
+				84B81CA7DD62B38A167A168897E289F2 /* PaymentMethod.swift in Sources */,
+				E4C372B223D09D907091E91D4F529B48 /* PaymentProcessingElement.swift in Sources */,
+				C838E4CDF1710D8EA60FB0EB219A1288 /* PaymentResult.swift in Sources */,
+				093176FF93713B4ABC260284A6303720 /* PaymentSession.swift in Sources */,
+				9049A7535D08C019B4658D8B550AACFB /* PaymentSessionDecoding.swift in Sources */,
+				EC6B95E982747FB4C01B8421A90F37DB /* PaymentSessionToken.swift in Sources */,
+				6A9A72A96439171A14DDE8D0E2AAAF81 /* Plugin.swift in Sources */,
+				240B8F4D2BC20AEC2B2C5BEC3AD7EE35 /* PluginManager.swift in Sources */,
+				AA2074B442E3BBCFF84DE73AE55560A2 /* PreselectedPaymentMethodManager.swift in Sources */,
+				25D8D89D6BE909BC9B22680E70975C65 /* PreselectedPaymentMethodViewController.swift in Sources */,
+				9E9C3A6A2C7C36A466F1AF670EA7D346 /* RedirectListener.swift in Sources */,
+				C100990487C3DE6EE69A77019BDB80DE /* RedirectPresenter.swift in Sources */,
+				C2C1A3DD6A9CD52A6FB307DB1303D738 /* Result.swift in Sources */,
+				05FF11CDC1A80D821DD47DA0DD8D041A /* SectionedPaymentMethods.swift in Sources */,
+				61ADCADE4BC56C595CD2450BA11569E6 /* SEPADirectDebitFormViewController.swift in Sources */,
+				E783B0453058A97DB28722E8F49096D4 /* SEPADirectDebitPlugin.swift in Sources */,
+				4784B0070FAA34229DEBE8B618A7AF2E /* SEPAPaymentDetails.swift in Sources */,
+				4F271544D9222089B01302B8211CBDB5 /* ShortViewController.swift in Sources */,
+				7C5E5F82FDCA61A084F301F51B74E662 /* StoredCardPlugin.swift in Sources */,
+				66A69867523C70F51D8D35FB344D8E0D /* StoredPaymentDetails.swift in Sources */,
+				258299DD97138E1349E159E8D0CA3C90 /* StoredPaymentMethodDeletionRequest.swift in Sources */,
+				F02FD83B282CEF712AA9BD360E412A3C /* StoredPaymentMethodDeletionResponse.swift in Sources */,
+				BBFE07AC39BA1E248B4E3A2B31AC991F /* StoredPlugin.swift in Sources */,
+				1A9ACED6823F49D7C8225EA64BA29775 /* UIDeviceHelpers.swift in Sources */,
+				D90C7D38102E749EADB4483CD75FCDA6 /* URLExtensions.swift in Sources */,
+				53B58BCB15CE5EDBFC0623F124549C9E /* Validator.swift in Sources */,
+				9BCD6EEDBCECF1460C934D0CC1E65EB3 /* Version.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FFEF6922790EB2883B9DDD9E5D7C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED82D7312FC691A19E8590922F2350B /* Pods-QuickStartTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EC745D91ABC5D10BD61B9250B4B1D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AdyenInternal-AdyenInternal";
+			target = D6484D0CFC9E80B9F21226B0C23FB2FE /* AdyenInternal-AdyenInternal */;
+			targetProxy = AD0CE5FD8175BACE6670A1A7EE42A13E /* PBXContainerItemProxy */;
+		};
+		6FFFA5C9F5E8C48CCE38CFF7953825DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Adyen;
+			target = 4FDC0AC751A2D29F9FE233209EFA77AA /* Adyen */;
+			targetProxy = 52DE87C562003E3597B3764003F3979F /* PBXContainerItemProxy */;
+		};
+		709FDBA1475DE501376D32454BE065BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Adyen;
+			target = 4FDC0AC751A2D29F9FE233209EFA77AA /* Adyen */;
+			targetProxy = 9F59C3CB0286940E013EBCE3F224636D /* PBXContainerItemProxy */;
+		};
+		8500C13A795CDF1F9923D1DEA9A6728C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdyenInternal;
+			target = 1EFA58E45E3D222D4FE37715DF42B535 /* AdyenInternal */;
+			targetProxy = 709118B85C0233E3FC87316AE67E4A1B /* PBXContainerItemProxy */;
+		};
+		97CBD125D710E568A683494AF4D2BF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdyenReactNative;
+			target = A2C7A64371354943524BC30E86C545F7 /* AdyenReactNative */;
+			targetProxy = C87B4B1CDAC565001995E7A09647B2ED /* PBXContainerItemProxy */;
+		};
+		E6F230EC20EBB984800A501A22C98486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QuickStart";
+			target = 244430749873E757D50BDB0C8D8387A9 /* Pods-QuickStart */;
+			targetProxy = AF24DFF904A5B38AAC2239C47A149B4B /* PBXContainerItemProxy */;
+		};
+		EA7831A54F2796C639F2F4D75E9E5F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdyenInternal;
+			target = 1EFA58E45E3D222D4FE37715DF42B535 /* AdyenInternal */;
+			targetProxy = 768709D706985AAE0B33AAAA31F89E69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17E7CCEBDE5F55ED708544AF586C4CB6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6672366527F49EBD987CB9C5C617D558 /* Localizable.strings */,
+				FDF8055C831A894BE9ED6B8C7CD6C6C4 /* Localizable.strings */,
+				8328B1B7FA655EF9589D7C3B8E07DAF4 /* Localizable.strings */,
+				847E6CCE6AE92329578D46555E7405A7 /* Localizable.strings */,
+				D7AE84FEA530D7D259EB24D53A28DC89 /* Localizable.strings */,
+				33404B5122547F9AA44E044527BD46EA /* Localizable.strings */,
+				2F1D2FADA18EFEA33CF75DD50BD64116 /* Localizable.strings */,
+				8EAA97318F0FEA72CE0230B06690A71D /* Localizable.strings */,
+				48505F0F2C9934C9D5C28F6268212241 /* Localizable.strings */,
+				12030ECA985940E927111914220A58FE /* Localizable.strings */,
+				FCE5E62D1BBC2B04574BE54E5C0B2BC5 /* Localizable.strings */,
+				B32F38D4586622795FC88FCC2FA9FA0D /* Localizable.strings */,
+				1809B2DF5FDB9B6F2D4B223F1574DD8A /* Localizable.strings */,
+				A6AAD9CBAD97C2C47FBC3CBD3CE3A439 /* Localizable.strings */,
+				9632D7DE42BE5AFF72101AE1955EA27E /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = AdyenInternal/Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D027BD8219E71225D197BACF78F7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		264669D5FF75D5BB754F5A2862CA4D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234B7C8E9EFBFF08849EA3E5E7204739 /* Pods-QuickStart.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickStart/Pods-QuickStart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickStart/Pods-QuickStart.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F3651ABF19115818D821BF3CA27313E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264999A7C63DB0CCC56C6C55634BE160 /* Pods-QuickStartTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickStartTests/Pods-QuickStartTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickStartTests/Pods-QuickStartTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3758866F3B109EFFC10EC718420C80C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A6432495A09E74168AD2AD2D320183 /* Pods-QuickStart.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickStart/Pods-QuickStart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickStart/Pods-QuickStart.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421C8DA95B8B5B9F38B0A12D6AE0B930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF971430F0985C60F6DAA4A4CBA73FC /* Adyen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Adyen/Adyen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Adyen/Adyen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Adyen/Adyen.modulemap";
+				PRODUCT_MODULE_NAME = Adyen;
+				PRODUCT_NAME = Adyen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C8253CD4025B65A3C9556C13A89512F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1393EB9B5629C4B5A394A3D78AD4F9FA /* AdyenInternal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AdyenInternal";
+				INFOPLIST_FILE = "Target Support Files/AdyenInternal/ResourceBundle-AdyenInternal-AdyenInternal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = AdyenInternal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5E4BA1A479EB59EEA59DC584A6A965F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B10552EB0D2FA16EA4C1BE109B1F35 /* AdyenReactNative.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		739B42CAAA411822B72038273C4E4AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1393EB9B5629C4B5A394A3D78AD4F9FA /* AdyenInternal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AdyenInternal/AdyenInternal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdyenInternal/AdyenInternal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdyenInternal/AdyenInternal.modulemap";
+				PRODUCT_MODULE_NAME = AdyenInternal;
+				PRODUCT_NAME = AdyenInternal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73BA2A1DE37CADA9DBFBAF659967562C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1393EB9B5629C4B5A394A3D78AD4F9FA /* AdyenInternal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AdyenInternal";
+				INFOPLIST_FILE = "Target Support Files/AdyenInternal/ResourceBundle-AdyenInternal-AdyenInternal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = AdyenInternal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7ACBE0A5330F61EAC796291661AB1810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B10552EB0D2FA16EA4C1BE109B1F35 /* AdyenReactNative.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82D6CECF7BF4A4F469793228EC7344BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF971430F0985C60F6DAA4A4CBA73FC /* Adyen.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Adyen/Adyen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Adyen/Adyen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Adyen/Adyen.modulemap";
+				PRODUCT_MODULE_NAME = Adyen;
+				PRODUCT_NAME = Adyen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FB57296A2B59949708C2B492C4646D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CDD9FB5201FDD375B975BD303650ED72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1393EB9B5629C4B5A394A3D78AD4F9FA /* AdyenInternal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AdyenInternal/AdyenInternal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdyenInternal/AdyenInternal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdyenInternal/AdyenInternal.modulemap";
+				PRODUCT_MODULE_NAME = AdyenInternal;
+				PRODUCT_NAME = AdyenInternal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D69888BE5DDD784FF86EC430A2AAE4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A926BB94F13A3B360CB2542D90389C1 /* Pods-QuickStartTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickStartTests/Pods-QuickStartTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickStartTests/Pods-QuickStartTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D027BD8219E71225D197BACF78F7C1 /* Debug */,
+				8FB57296A2B59949708C2B492C4646D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E856DA9D2268F2A8CB2560B5D2C1F33 /* Build configuration list for PBXNativeTarget "Pods-QuickStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3758866F3B109EFFC10EC718420C80C3 /* Debug */,
+				264669D5FF75D5BB754F5A2862CA4D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E981E1DF40617D65279D85186F2E57E /* Build configuration list for PBXNativeTarget "AdyenInternal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD9FB5201FDD375B975BD303650ED72 /* Debug */,
+				739B42CAAA411822B72038273C4E4AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89344E3B7E7391C2DFFDECB43FA86FC3 /* Build configuration list for PBXNativeTarget "AdyenInternal-AdyenInternal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8253CD4025B65A3C9556C13A89512F /* Debug */,
+				73BA2A1DE37CADA9DBFBAF659967562C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A502B685ACB5ED6351D7DADD6A5C1DBD /* Build configuration list for PBXNativeTarget "Adyen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D6CECF7BF4A4F469793228EC7344BA /* Debug */,
+				421C8DA95B8B5B9F38B0A12D6AE0B930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BD7BAF2C57CE881F13A0FB25B510C7 /* Build configuration list for PBXNativeTarget "Pods-QuickStartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69888BE5DDD784FF86EC430A2AAE4D9 /* Debug */,
+				2F3651ABF19115818D821BF3CA27313E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B50C8672900D62FBCEF1F358FEA721 /* Build configuration list for PBXAggregateTarget "AdyenReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACBE0A5330F61EAC796291661AB1810 /* Debug */,
+				5E4BA1A479EB59EEA59DC584A6A965F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
